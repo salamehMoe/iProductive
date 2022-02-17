@@ -1,0 +1,51 @@
+<Alloy>
+	<Collection src="questions_answers_scorecard" />
+	<Window module="xp.ui" id="questions">
+		<ListView id="list" defaultItemTemplate="elementTemplate" onItemclick="listClicked">
+			<Templates>
+				<ItemTemplate name="elementTemplate" class="height">
+					<View class="theContainer">
+						<Label bindId="QuestionDesc" class="QuestionDesc" />
+						<View bindId="answerContainer" class="answerContainer">
+							<Label  class="answerLabel"  />
+							<Label bindId="answer"  class="answer"  />
+						</View>
+					</View>
+				</ItemTemplate>
+			</Templates>
+		</ListView>
+		<AlertDialog id="deleteImage">
+			<ButtonNames>
+				<ButtonName>
+					Yes
+				</ButtonName>
+				<ButtonName>
+					No
+				</ButtonName>
+			</ButtonNames>
+		</AlertDialog>
+
+	</Window>
+	       <View id="answersLayer" onClick="hideanswerLayer" >
+            <View class="overlay" />
+            <!--<Button backgroundColor="red" id="aa" width="0" height="0" />
+            <Popover title="Select Answer" onHide="hideanswerLayer"  id="answersPopOver" height="Ti.UI.SIZE" width="250" formFactor="tablet" platform="ios">
+            <ContentView>
+            <Window title="Select store" id="storesList" height="Ti.UI.SIZE">
+            <ListView id="answerList" onItemclick="selectAnswer" height="Ti.UI.SIZE" >
+            <ListSection dataCollection="questions_answers_scorecard"  >
+            <ListItem title="{Answer}" AnswerID="{AnswerID}" AnswerID="{AnswerID}" Value="{Value}" Weight="{Weight}" />
+            </ListSection>
+            </ListView>
+            </Window>
+            </ContentView>
+            </Popover>!-->
+            <View width="Ti.UI.SIZE" height="Ti.UI.SIZE" backgroundColor ="white" >
+                <ListView borderRadius="6" borderColor="#115EAC" borderWidth="3"  separatorColor="#115EAC" id="answerList" onItemclick="selectAnswer" height="Ti.UI.SIZE" width="300" bubbleParent="false" >
+                    <ListSection id="answersSection"  dataCollection="questions_answers_scorecard"  >
+                    <!-->   <ListItem  title="{Answer}" AnswerID="{AnswerID}" AnswerID="{AnswerID}" Value="{Value}" Weight="{Weight}" />!-->
+                    </ListSection>
+                </ListView>
+            </View>
+        </View>
+</Alloy>

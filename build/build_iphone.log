@@ -1,0 +1,564 @@
+
+12/9/2020, 10:06:28 AM
+
+Operating System
+  Name                        = macOS
+  Version                     = 11.0.1
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 12.18.4
+  npm Version                 = 6.14.6
+
+Titanium CLI
+  CLI Version                 = 5.2.5
+
+Titanium SDK
+  SDK Version                 = 9.1.0.GA
+  SDK Path                    = /Users/exsalameh/Library/Application Support/Titanium/mobilesdk/osx/9.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/exsalameh/.appcelerator/install/8.1.1/package/node_modules/titanium/lib/titanium.js build --sdk 9.1.0.GA --no-banner --config-file /var/folders/pt/rkfwd4q57z70cw0f694mrg5h0000gn/T/build-1607501174714.json --platform iphone --project-dir /Users/exsalameh/Desktop/iProductive-2 --log-level info --device-id A22C016C-BFB0-479D-B420-DB4A89F77847 --target simulator --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID A22C016C-BFB0-479D-B420-DB4A89F77847
+[TRACE]  [ioslib] Found iOS Simulator UDID A22C016C-BFB0-479D-B420-DB4A89F77847
+[TRACE]  [ioslib] Selected iOS Simulator: iPad Air (4th generation)
+[TRACE]  [ioslib]   UDID    = A22C016C-BFB0-479D-B420-DB4A89F77847
+[TRACE]  [ioslib]   iOS     = 14.2
+[TRACE]  [ioslib] Autoselected Xcode: 12.2
+[DEBUG]  Detecting modules in /Users/exsalameh/Desktop/iProductive-2/node_modules
+[DEBUG]  Detecting modules in /Users/exsalameh/Library/Application Support/Titanium/modules
+[DEBUG]  Detecting modules in /Users/exsalameh/Desktop/iProductive-2/modules
+[DEBUG]  Detected android module: hyperloop 6.0.1 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/hyperloop/6.0.1
+[DEBUG]  Detected android module: hyperloop 5.0.3 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/hyperloop/5.0.3
+[DEBUG]  Detected android module: hyperloop 6.0.2 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/hyperloop/6.0.2
+[DEBUG]  Detected android module: facebook 10.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/facebook/10.0.0
+[DEBUG]  Detected android module: facebook 9.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/facebook/9.0.0
+[DEBUG]  Detected android module: ti.cloudpush 7.1.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/ti.cloudpush/7.1.0
+[DEBUG]  Detected android module: ti.identity 3.0.2 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/ti.identity/3.0.2
+[DEBUG]  Detected android module: ti.map 5.0.1 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/ti.map/5.0.1
+[DEBUG]  Detected android module: ti.playservices 17.1.1 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/ti.playservices/17.1.1
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/exsalameh/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected android module: ti.webdialog 2.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/android/ti.webdialog/2.0.0
+[DEBUG]  Detected ios module: com.appcelerator.urlSession 2.2.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.2.0
+[DEBUG]  Detected ios module: com.appcelerator.urlSession 3.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/3.0.0
+[DEBUG]  Detected ios module: facebook 8.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/facebook/8.0.0
+[DEBUG]  Detected ios module: facebook 9.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/facebook/9.0.0
+[DEBUG]  Detected ios module: hyperloop 5.0.3 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/hyperloop/5.0.3
+[DEBUG]  Detected ios module: hyperloop 6.0.2 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/hyperloop/6.0.2
+[DEBUG]  Detected ios module: hyperloop 6.0.1 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/hyperloop/6.0.1
+[DEBUG]  Detected ios module: ti.applesignin 1.1.1 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.applesignin/1.1.1
+[DEBUG]  Detected ios module: ti.applesignin 2.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.applesignin/2.0.0
+[DEBUG]  Detected ios module: ti.coremotion 2.1.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.1.0
+[DEBUG]  Detected ios module: ti.coremotion 3.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.coremotion/3.0.0
+[DEBUG]  Detected ios module: ti.identity 1.1.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.identity/1.1.0
+[DEBUG]  Detected ios module: ti.identity 2.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.identity/2.0.0
+[DEBUG]  Detected ios module: ti.map 3.3.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.map/3.3.0
+[DEBUG]  Detected ios module: ti.map 4.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.map/4.0.0
+[DEBUG]  Detected ios module: ti.map 4.0.1 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.map/4.0.1
+[DEBUG]  Detected android module: bencoding.alarmmanager 0.11 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/bencoding.alarmmanager/0.11
+[DEBUG]  Detected android module: bencoding.alarmmanager 0.17 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/bencoding.alarmmanager/0.17
+[DEBUG]  Detected android module: dk.napp.drawer 1.1.4 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/dk.napp.drawer/1.1.4
+[DEBUG]  Detected android module: dk.napp.drawer 2.0.1 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/dk.napp.drawer/2.0.1
+[DEBUG]  Detected android module: fh.imagefactory 2.0 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/fh.imagefactory/2.0
+[DEBUG]  Detected android module: fh.imagefactory 1.1 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/fh.imagefactory/1.1
+[DEBUG]  Detected android module: ti.imagefactory 2.2.1 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/ti.imagefactory/2.2.1
+[DEBUG]  Detected android module: ti.imagefactory 3.1.0 @ /Users/exsalameh/Desktop/iProductive-2/modules/android/ti.imagefactory/3.1.0
+[DEBUG]  Detected ios module: ti.webdialog 1.2.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.webdialog/1.2.0
+[DEBUG]  Detected ios module: ti.webdialog 2.0.0 @ /Users/exsalameh/Library/Application Support/Titanium/modules/iphone/ti.webdialog/2.0.0
+[DEBUG]  Detected ios module: bencoding.blur 0.35 @ /Users/exsalameh/Desktop/iProductive-2/modules/iphone/bencoding.blur/0.35
+[DEBUG]  Detected ios module: bencoding.blur 0.5.0 @ /Users/exsalameh/Desktop/iProductive-2/modules/iphone/bencoding.blur/0.5.0
+[DEBUG]  Detected ios module: dk.napp.drawer 1.1.7 @ /Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/1.1.7
+[DEBUG]  Detected ios module: dk.napp.drawer 1.2.0 @ /Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/1.2.0
+[DEBUG]  Detected ios module: dk.napp.drawer 1.2.4 @ /Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/1.2.4
+[DEBUG]  Detected ios module: dk.napp.drawer 2.1.1 @ /Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/2.1.1
+[DEBUG]  Looking for Titanium module id=bencoding.blur version=latest platform=ios deploy-type=development
+[INFO]   Found Titanium module id=bencoding.blur version=0.5.0 platform=ios deploy-type=development path=/Users/exsalameh/Desktop/iProductive-2/modules/iphone/bencoding.blur/0.5.0
+[INFO]   Found better matching module id=bencoding.blur version=latest platform=ios deploy-type=development path=/Users/exsalameh/Desktop/iProductive-2/modules/iphone/bencoding.blur/0.35
+[DEBUG]  Looking for Titanium module id=dk.napp.drawer version=1.2.4 platform=ios deploy-type=development
+[INFO]   Found Titanium module id=dk.napp.drawer version=1.2.4 platform=ios deploy-type=development path=/Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/1.2.4
+[DEBUG]  Detecting plugins in /Users/exsalameh/Desktop/iProductive-2/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/exsalameh/Desktop/iProductive-2/plugins/ti.alloy
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/exsalameh/Library/Application Support/Titanium/mobilesdk/osx/9.1.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 14.2
+[INFO]   Building for iOS Simulator: iPad Air (4th generation)
+[DEBUG]  UDID: A22C016C-BFB0-479D-B420-DB4A89F77847
+[DEBUG]  Simulator type: ipad
+[DEBUG]  Simulator version: 14.2
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Team ID: n/a
+[INFO]   Minimum iOS version: 10.0
+[INFO]   Logging disabled
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Transpile javascript: true
+[INFO]   Generate source maps: true
+[INFO]   Forcing clean build: /Users/exsalameh/Desktop/iProductive-2/build/iphone/build-manifest.json does not exist
+[INFO]   Initializing the build directory
+[DEBUG]  Recreating /Users/exsalameh/Desktop/iProductive-2/build/iphone
+[INFO]   Found Alloy app in /Users/exsalameh/Desktop/iProductive-2/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/exsalameh/.appcelerator/install/8.1.1/package/node_modules/alloy/bin/alloy compile /Users/exsalameh/Desktop/iProductive-2/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.15.2 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = universal
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/exsalameh/Desktop/iProductive-2
+[DEBUG]  app path = /Users/exsalameh/Desktop/iProductive-2/app
+[DEBUG]  
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[WARN]   Generated "/i18n" directory is not ignored by Git, please add it to your .gitignore
+[WARN]   Generated "/platform" directory is not ignored by Git, please add it to your .gitignore
+[DEBUG]  dependencies = {"nl.fokkezb.drawer":"*","nl.fokkezb.loading":"*","com.skypanther.alloypopover":"1.2"}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {
+[DEBUG]  "nl.fokkezb.drawer": "*",
+[DEBUG]  "nl.fokkezb.loading": "*",
+[DEBUG]  "com.skypanther.alloypopover": "1.2"
+[DEBUG]  },
+[DEBUG]  "tintColor": "#ED1E26",
+[DEBUG]  "borderColor": "#115EAC",
+[DEBUG]  "url": "https://webapps.retailsso.com/ws_dosiv_test/webservice.asmx",
+[DEBUG]  "userAccessCode": "J/Xddn6Lhe3JF1HatNVOuJEuKAzhIF4Y",
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  Loading "alloy.jmk" compiler hooks...
+[DEBUG]  adding task: pre:load
+[DEBUG]  compile:trigger-> pre:load
+[INFO]   Downsizing 33%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/appicon-60.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/back@2x.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/calendar@2x.png
+[INFO]   Downsizing 33%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/checkmark.png
+[INFO]   Downsizing 33%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/cloud.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/document@2x.png
+[INFO]   Downsizing 33%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/document.png
+[INFO]   Downsizing 33%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/history.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/home@2x.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/menu@2x.png
+[INFO]   Downsizing 33%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/menu.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/picker@2x.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/save@2x.png
+[INFO]   Downsizing 67%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/template@2x.png
+[INFO]   Downsizing 33%: /Users/exsalameh/Desktop/iProductive-2/app/assets/iphone/images/icons/user.png
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/exsalameh/.appcelerator/install/8.1.1/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  
+[TRACE]  Generating ../Users/exsalameh/Desktop/iProductive-2/Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/exsalameh/.appcelerator/install/8.1.1/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/exsalameh/Desktop/iProductive-2/app/assets
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/exsalameh/Desktop/iProductive-2/app/lib
+[TRACE]  Copying SRC_DIR/xp.ui.js --> Resources/iphone/xp.ui.js
+[DEBUG]  map:        "/Users/exsalameh/Desktop/iProductive-2/build/map/Resources/iphone/xp.ui.js.map"
+[TRACE]  Copying SRC_DIR/xml2json.js --> Resources/iphone/xml2json.js
+[DEBUG]  map:        "/Users/exsalameh/Desktop/iProductive-2/build/map/Resources/iphone/xml2json.js.map"
+[TRACE]  Copying SRC_DIR/tripledes.js --> Resources/iphone/tripledes.js
+[DEBUG]  map:        "/Users/exsalameh/Desktop/iProductive-2/build/map/Resources/iphone/tripledes.js.map"
+[TRACE]  Copying SRC_DIR/model.js --> Resources/iphone/model.js
+[DEBUG]  map:        "/Users/exsalameh/Desktop/iProductive-2/build/map/Resources/iphone/model.js.map"
+[TRACE]  Copying SRC_DIR/cachedData.js --> Resources/iphone/cachedData.js
+[DEBUG]  map:        "/Users/exsalameh/Desktop/iProductive-2/build/map/Resources/iphone/cachedData.js.map"
+[TRACE]  
+[DEBUG]  Resetting /Users/exsalameh/Desktop/iProductive-2/platform/ios
+[DEBUG]  
+[DEBUG]  Resetting /Users/exsalameh/Desktop/iProductive-2/i18n
+[DEBUG]  Writing /Users/exsalameh/Desktop/iProductive-2/i18n/en/strings.xml
+[DEBUG]  
+[DEBUG]  compile:trigger-> pre:compile
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [models/answers.js] model processing...
+[INFO]   [models/auditHistory.js] model processing...
+[INFO]   [models/auditRecord.js] model processing...
+[INFO]   [models/employees.js] model processing...
+[INFO]   [models/questions.js] model processing...
+[INFO]   [models/questions_answers_scorecard.js] model processing...
+[INFO]   [models/questions_scorecard.js] model processing...
+[INFO]   [models/sections.js] model processing...
+[INFO]   [models/stores.js] model processing...
+[INFO]   [models/tasks.js] model processing...
+[INFO]   [models/tasks_completed.js] model processing...
+[INFO]   [models/templates.js] model processing...
+[INFO]   [models/user.js] model processing...
+[INFO]   [models/user_depts.js] model processing...
+[INFO]   [widget.xml] nl.fokkezb.drawer view processing...
+[INFO]   view:       "widget.xml"
+[INFO]   controller: "widget.js"
+[INFO]   created:    "Resources/iphone/alloy/widgets/nl.fokkezb.drawer/controllers/widget.js"
+[INFO]   created:     "Resources/iphone/alloy/widgets/nl.fokkezb.drawer/styles/widget.js"
+[INFO]   [view.xml] nl.fokkezb.loading view processing...
+[INFO]   style:      "view.tss"
+[INFO]   view:       "view.xml"
+[INFO]   controller: "view.js"
+[TRACE]  WIDGET_SRC=app/widgets/nl.fokkezb.loading/assets
+[TRACE]  Copying images/00.png --> Resources/iphone/images/nl.fokkezb.loading/00.png...
+[TRACE]  Copying images/01.png --> Resources/iphone/images/nl.fokkezb.loading/01.png...
+[TRACE]  Copying images/02.png --> Resources/iphone/images/nl.fokkezb.loading/02.png...
+[TRACE]  Copying images/03.png --> Resources/iphone/images/nl.fokkezb.loading/03.png...
+[TRACE]  Copying images/04.png --> Resources/iphone/images/nl.fokkezb.loading/04.png...
+[TRACE]  Copying images/05.png --> Resources/iphone/images/nl.fokkezb.loading/05.png...
+[TRACE]  Copying images/06.png --> Resources/iphone/images/nl.fokkezb.loading/06.png...
+[TRACE]  Copying images/07.png --> Resources/iphone/images/nl.fokkezb.loading/07.png...
+[TRACE]  Copying images/08.png --> Resources/iphone/images/nl.fokkezb.loading/08.png...
+[TRACE]  Copying images/09.png --> Resources/iphone/images/nl.fokkezb.loading/09.png...
+[TRACE]  Copying images/10.png --> Resources/iphone/images/nl.fokkezb.loading/10.png...
+[TRACE]  Copying images/11.png --> Resources/iphone/images/nl.fokkezb.loading/11.png...
+[TRACE]  Copying images/spinner.png --> Resources/iphone/images/nl.fokkezb.loading/spinner.png...
+[TRACE]  Copying iphone/images/00.png --> Resources/iphone/images/nl.fokkezb.loading/00.png...
+[TRACE]  Copying iphone/images/00@2x.png --> Resources/iphone/images/nl.fokkezb.loading/00@2x.png...
+[TRACE]  Copying iphone/images/01.png --> Resources/iphone/images/nl.fokkezb.loading/01.png...
+[TRACE]  Copying iphone/images/01@2x.png --> Resources/iphone/images/nl.fokkezb.loading/01@2x.png...
+[TRACE]  Copying iphone/images/02.png --> Resources/iphone/images/nl.fokkezb.loading/02.png...
+[TRACE]  Copying iphone/images/02@2x.png --> Resources/iphone/images/nl.fokkezb.loading/02@2x.png...
+[TRACE]  Copying iphone/images/03.png --> Resources/iphone/images/nl.fokkezb.loading/03.png...
+[TRACE]  Copying iphone/images/03@2x.png --> Resources/iphone/images/nl.fokkezb.loading/03@2x.png...
+[TRACE]  Copying iphone/images/04.png --> Resources/iphone/images/nl.fokkezb.loading/04.png...
+[TRACE]  Copying iphone/images/04@2x.png --> Resources/iphone/images/nl.fokkezb.loading/04@2x.png...
+[TRACE]  Copying iphone/images/05.png --> Resources/iphone/images/nl.fokkezb.loading/05.png...
+[TRACE]  Copying iphone/images/05@2x.png --> Resources/iphone/images/nl.fokkezb.loading/05@2x.png...
+[TRACE]  Copying iphone/images/06.png --> Resources/iphone/images/nl.fokkezb.loading/06.png...
+[TRACE]  Copying iphone/images/06@2x.png --> Resources/iphone/images/nl.fokkezb.loading/06@2x.png...
+[TRACE]  Copying iphone/images/07.png --> Resources/iphone/images/nl.fokkezb.loading/07.png...
+[TRACE]  Copying iphone/images/07@2x.png --> Resources/iphone/images/nl.fokkezb.loading/07@2x.png...
+[TRACE]  Copying iphone/images/08.png --> Resources/iphone/images/nl.fokkezb.loading/08.png...
+[TRACE]  Copying iphone/images/08@2x.png --> Resources/iphone/images/nl.fokkezb.loading/08@2x.png...
+[TRACE]  Copying iphone/images/09.png --> Resources/iphone/images/nl.fokkezb.loading/09.png...
+[TRACE]  Copying iphone/images/09@2x.png --> Resources/iphone/images/nl.fokkezb.loading/09@2x.png...
+[TRACE]  Copying iphone/images/10.png --> Resources/iphone/images/nl.fokkezb.loading/10.png...
+[TRACE]  Copying iphone/images/10@2x.png --> Resources/iphone/images/nl.fokkezb.loading/10@2x.png...
+[TRACE]  Copying iphone/images/11.png --> Resources/iphone/images/nl.fokkezb.loading/11.png...
+[TRACE]  Copying iphone/images/11@2x.png --> Resources/iphone/images/nl.fokkezb.loading/11@2x.png...
+[TRACE]  Copying iphone/images/spinner.png --> Resources/iphone/images/nl.fokkezb.loading/spinner.png...
+[TRACE]  Copying iphone/images/spinner@2x.png --> Resources/iphone/images/nl.fokkezb.loading/spinner@2x.png...
+[TRACE]  
+[INFO]   created:    "Resources/iphone/alloy/widgets/nl.fokkezb.loading/controllers/view.js"
+[INFO]   created:     "Resources/iphone/alloy/widgets/nl.fokkezb.loading/styles/view.js"
+[INFO]   [widget.xml] nl.fokkezb.loading view processing...
+[INFO]   view:       "widget.xml"
+[INFO]   controller: "widget.js"
+[TRACE]  WIDGET_SRC=app/widgets/nl.fokkezb.loading/assets
+[TRACE]  Copying images/00.png --> Resources/iphone/images/nl.fokkezb.loading/00.png...
+[TRACE]  Copying images/01.png --> Resources/iphone/images/nl.fokkezb.loading/01.png...
+[TRACE]  Copying images/02.png --> Resources/iphone/images/nl.fokkezb.loading/02.png...
+[TRACE]  Copying images/03.png --> Resources/iphone/images/nl.fokkezb.loading/03.png...
+[TRACE]  Copying images/04.png --> Resources/iphone/images/nl.fokkezb.loading/04.png...
+[TRACE]  Copying images/05.png --> Resources/iphone/images/nl.fokkezb.loading/05.png...
+[TRACE]  Copying images/06.png --> Resources/iphone/images/nl.fokkezb.loading/06.png...
+[TRACE]  Copying images/07.png --> Resources/iphone/images/nl.fokkezb.loading/07.png...
+[TRACE]  Copying images/08.png --> Resources/iphone/images/nl.fokkezb.loading/08.png...
+[TRACE]  Copying images/09.png --> Resources/iphone/images/nl.fokkezb.loading/09.png...
+[TRACE]  Copying images/10.png --> Resources/iphone/images/nl.fokkezb.loading/10.png...
+[TRACE]  Copying images/11.png --> Resources/iphone/images/nl.fokkezb.loading/11.png...
+[TRACE]  Copying images/spinner.png --> Resources/iphone/images/nl.fokkezb.loading/spinner.png...
+[TRACE]  Copying iphone/images/00.png --> Resources/iphone/images/nl.fokkezb.loading/00.png...
+[TRACE]  Copying iphone/images/00@2x.png --> Resources/iphone/images/nl.fokkezb.loading/00@2x.png...
+[TRACE]  Copying iphone/images/01.png --> Resources/iphone/images/nl.fokkezb.loading/01.png...
+[TRACE]  Copying iphone/images/01@2x.png --> Resources/iphone/images/nl.fokkezb.loading/01@2x.png...
+[TRACE]  Copying iphone/images/02.png --> Resources/iphone/images/nl.fokkezb.loading/02.png...
+[TRACE]  Copying iphone/images/02@2x.png --> Resources/iphone/images/nl.fokkezb.loading/02@2x.png...
+[TRACE]  Copying iphone/images/03.png --> Resources/iphone/images/nl.fokkezb.loading/03.png...
+[TRACE]  Copying iphone/images/03@2x.png --> Resources/iphone/images/nl.fokkezb.loading/03@2x.png...
+[TRACE]  Copying iphone/images/04.png --> Resources/iphone/images/nl.fokkezb.loading/04.png...
+[TRACE]  Copying iphone/images/04@2x.png --> Resources/iphone/images/nl.fokkezb.loading/04@2x.png...
+[TRACE]  Copying iphone/images/05.png --> Resources/iphone/images/nl.fokkezb.loading/05.png...
+[TRACE]  Copying iphone/images/05@2x.png --> Resources/iphone/images/nl.fokkezb.loading/05@2x.png...
+[TRACE]  Copying iphone/images/06.png --> Resources/iphone/images/nl.fokkezb.loading/06.png...
+[TRACE]  Copying iphone/images/06@2x.png --> Resources/iphone/images/nl.fokkezb.loading/06@2x.png...
+[TRACE]  Copying iphone/images/07.png --> Resources/iphone/images/nl.fokkezb.loading/07.png...
+[TRACE]  Copying iphone/images/07@2x.png --> Resources/iphone/images/nl.fokkezb.loading/07@2x.png...
+[TRACE]  Copying iphone/images/08.png --> Resources/iphone/images/nl.fokkezb.loading/08.png...
+[TRACE]  Copying iphone/images/08@2x.png --> Resources/iphone/images/nl.fokkezb.loading/08@2x.png...
+[TRACE]  Copying iphone/images/09.png --> Resources/iphone/images/nl.fokkezb.loading/09.png...
+[TRACE]  Copying iphone/images/09@2x.png --> Resources/iphone/images/nl.fokkezb.loading/09@2x.png...
+[TRACE]  Copying iphone/images/10.png --> Resources/iphone/images/nl.fokkezb.loading/10.png...
+[TRACE]  Copying iphone/images/10@2x.png --> Resources/iphone/images/nl.fokkezb.loading/10@2x.png...
+[TRACE]  Copying iphone/images/11.png --> Resources/iphone/images/nl.fokkezb.loading/11.png...
+[TRACE]  Copying iphone/images/11@2x.png --> Resources/iphone/images/nl.fokkezb.loading/11@2x.png...
+[TRACE]  Copying iphone/images/spinner.png --> Resources/iphone/images/nl.fokkezb.loading/spinner.png...
+[TRACE]  Copying iphone/images/spinner@2x.png --> Resources/iphone/images/nl.fokkezb.loading/spinner@2x.png...
+[TRACE]  
+[INFO]   created:    "Resources/iphone/alloy/widgets/nl.fokkezb.loading/controllers/widget.js"
+[INFO]   created:     "Resources/iphone/alloy/widgets/nl.fokkezb.loading/styles/widget.js"
+[INFO]   [window.xml] nl.fokkezb.loading view processing...
+[INFO]   style:      "window.tss"
+[INFO]   view:       "window.xml"
+[INFO]   controller: "window.js"
+[TRACE]  WIDGET_SRC=app/widgets/nl.fokkezb.loading/assets
+[TRACE]  Copying images/00.png --> Resources/iphone/images/nl.fokkezb.loading/00.png...
+[TRACE]  Copying images/01.png --> Resources/iphone/images/nl.fokkezb.loading/01.png...
+[TRACE]  Copying images/02.png --> Resources/iphone/images/nl.fokkezb.loading/02.png...
+[TRACE]  Copying images/03.png --> Resources/iphone/images/nl.fokkezb.loading/03.png...
+[TRACE]  Copying images/04.png --> Resources/iphone/images/nl.fokkezb.loading/04.png...
+[TRACE]  Copying images/05.png --> Resources/iphone/images/nl.fokkezb.loading/05.png...
+[TRACE]  Copying images/06.png --> Resources/iphone/images/nl.fokkezb.loading/06.png...
+[TRACE]  Copying images/07.png --> Resources/iphone/images/nl.fokkezb.loading/07.png...
+[TRACE]  Copying images/08.png --> Resources/iphone/images/nl.fokkezb.loading/08.png...
+[TRACE]  Copying images/09.png --> Resources/iphone/images/nl.fokkezb.loading/09.png...
+[TRACE]  Copying images/10.png --> Resources/iphone/images/nl.fokkezb.loading/10.png...
+[TRACE]  Copying images/11.png --> Resources/iphone/images/nl.fokkezb.loading/11.png...
+[TRACE]  Copying images/spinner.png --> Resources/iphone/images/nl.fokkezb.loading/spinner.png...
+[TRACE]  Copying iphone/images/00.png --> Resources/iphone/images/nl.fokkezb.loading/00.png...
+[TRACE]  Copying iphone/images/00@2x.png --> Resources/iphone/images/nl.fokkezb.loading/00@2x.png...
+[TRACE]  Copying iphone/images/01.png --> Resources/iphone/images/nl.fokkezb.loading/01.png...
+[TRACE]  Copying iphone/images/01@2x.png --> Resources/iphone/images/nl.fokkezb.loading/01@2x.png...
+[TRACE]  Copying iphone/images/02.png --> Resources/iphone/images/nl.fokkezb.loading/02.png...
+[TRACE]  Copying iphone/images/02@2x.png --> Resources/iphone/images/nl.fokkezb.loading/02@2x.png...
+[TRACE]  Copying iphone/images/03.png --> Resources/iphone/images/nl.fokkezb.loading/03.png...
+[TRACE]  Copying iphone/images/03@2x.png --> Resources/iphone/images/nl.fokkezb.loading/03@2x.png...
+[TRACE]  Copying iphone/images/04.png --> Resources/iphone/images/nl.fokkezb.loading/04.png...
+[TRACE]  Copying iphone/images/04@2x.png --> Resources/iphone/images/nl.fokkezb.loading/04@2x.png...
+[TRACE]  Copying iphone/images/05.png --> Resources/iphone/images/nl.fokkezb.loading/05.png...
+[TRACE]  Copying iphone/images/05@2x.png --> Resources/iphone/images/nl.fokkezb.loading/05@2x.png...
+[TRACE]  Copying iphone/images/06.png --> Resources/iphone/images/nl.fokkezb.loading/06.png...
+[TRACE]  Copying iphone/images/06@2x.png --> Resources/iphone/images/nl.fokkezb.loading/06@2x.png...
+[TRACE]  Copying iphone/images/07.png --> Resources/iphone/images/nl.fokkezb.loading/07.png...
+[TRACE]  Copying iphone/images/07@2x.png --> Resources/iphone/images/nl.fokkezb.loading/07@2x.png...
+[TRACE]  Copying iphone/images/08.png --> Resources/iphone/images/nl.fokkezb.loading/08.png...
+[TRACE]  Copying iphone/images/08@2x.png --> Resources/iphone/images/nl.fokkezb.loading/08@2x.png...
+[TRACE]  Copying iphone/images/09.png --> Resources/iphone/images/nl.fokkezb.loading/09.png...
+[TRACE]  Copying iphone/images/09@2x.png --> Resources/iphone/images/nl.fokkezb.loading/09@2x.png...
+[TRACE]  Copying iphone/images/10.png --> Resources/iphone/images/nl.fokkezb.loading/10.png...
+[TRACE]  Copying iphone/images/10@2x.png --> Resources/iphone/images/nl.fokkezb.loading/10@2x.png...
+[TRACE]  Copying iphone/images/11.png --> Resources/iphone/images/nl.fokkezb.loading/11.png...
+[TRACE]  Copying iphone/images/11@2x.png --> Resources/iphone/images/nl.fokkezb.loading/11@2x.png...
+[TRACE]  Copying iphone/images/spinner.png --> Resources/iphone/images/nl.fokkezb.loading/spinner.png...
+[TRACE]  Copying iphone/images/spinner@2x.png --> Resources/iphone/images/nl.fokkezb.loading/spinner@2x.png...
+[TRACE]  
+[INFO]   created:    "Resources/iphone/alloy/widgets/nl.fokkezb.loading/controllers/window.js"
+[INFO]   created:     "Resources/iphone/alloy/widgets/nl.fokkezb.loading/styles/window.js"
+[INFO]   [widget.xml] com.skypanther.alloypopover view processing...
+[INFO]   style:      "widget.tss"
+[INFO]   view:       "widget.xml"
+[INFO]   controller: "widget.js"
+[INFO]   created:    "Resources/iphone/alloy/widgets/com.skypanther.alloypopover/controllers/widget.js"
+[INFO]   created:     "Resources/iphone/alloy/widgets/com.skypanther.alloypopover/styles/widget.js"
+[INFO]   [audit/commentview.xml] view processing...
+[INFO]   view:       "audit/commentview.xml"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/commentview.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/commentview.js"
+[INFO]   [audit/completed.xml] view processing...
+[INFO]   style:      "audit/completed.tss"
+[INFO]   view:       "audit/completed.xml"
+[INFO]   controller: "audit/completed.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/completed.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/completed.js"
+[INFO]   [audit/history.xml] view processing...
+[INFO]   style:      "audit/history.tss"
+[INFO]   view:       "audit/history.xml"
+[INFO]   controller: "audit/history.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/history.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/history.js"
+[INFO]   [audit/in_completed.xml] view processing...
+[INFO]   style:      "audit/in_completed.tss"
+[INFO]   view:       "audit/in_completed.xml"
+[INFO]   controller: "audit/in_completed.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/in_completed.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/in_completed.js"
+[INFO]   [audit/index.xml] view processing...
+[INFO]   style:      "audit/index.tss"
+[INFO]   view:       "audit/index.xml"
+[INFO]   controller: "audit/index.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/index.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/index.js"
+[INFO]   [audit/pre_survey.xml] view processing...
+[INFO]   style:      "audit/pre_survey.tss"
+[INFO]   view:       "audit/pre_survey.xml"
+[INFO]   controller: "audit/pre_survey.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/pre_survey.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/pre_survey.js"
+[INFO]   [audit/question_section.xml] view processing...
+[INFO]   style:      "audit/question_section.tss"
+[INFO]   view:       "audit/question_section.xml"
+[INFO]   controller: "audit/question_section.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/question_section.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/question_section.js"
+[INFO]   [audit/questions.xml] view processing...
+[INFO]   style:      "audit/questions.tss"
+[INFO]   view:       "audit/questions.xml"
+[WARN]   Additional views in <AlertDialog> (line 77) are only supported on Android
+[WARN]   To get rid of this warning, add platform="android" to your child elements
+[INFO]   controller: "audit/questions.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/questions.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/questions.js"
+[INFO]   [audit/scoreCardQuestions.xml] view processing...
+[INFO]   style:      "audit/scoreCardQuestions.tss"
+[INFO]   view:       "audit/scoreCardQuestions.xml"
+[INFO]   controller: "audit/scoreCardQuestions.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/scoreCardQuestions.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/scoreCardQuestions.js"
+[INFO]   [audit/scoreCard_question_section.xml] view processing...
+[INFO]   style:      "audit/scoreCard_question_section.tss"
+[INFO]   view:       "audit/scoreCard_question_section.xml"
+[INFO]   controller: "audit/scoreCard_question_section.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/scoreCard_question_section.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/scoreCard_question_section.js"
+[INFO]   [audit/section_template.xml] view processing...
+[INFO]   style:      "audit/section_template.tss"
+[INFO]   view:       "audit/section_template.xml"
+[INFO]   controller: "audit/section_template.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/section_template.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/section_template.js"
+[INFO]   [audit/sections.xml] view processing...
+[INFO]   style:      "audit/sections.tss"
+[INFO]   view:       "audit/sections.xml"
+[INFO]   controller: "audit/sections.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/audit/sections.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/audit/sections.js"
+[INFO]   [centerNavBtns.xml] view processing...
+[INFO]   view:       "centerNavBtns.xml"
+[INFO]   controller: "centerNavBtns.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/centerNavBtns.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/centerNavBtns.js"
+[INFO]   [container.xml] view processing...
+[INFO]   style:      "container.tss"
+[INFO]   view:       "container.xml"
+[INFO]   controller: "container.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/container.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/container.js"
+[INFO]   [home.xml] view processing...
+[INFO]   style:      "home.tss"
+[INFO]   view:       "home.xml"
+[INFO]   controller: "home.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/home.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/home.js"
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [left.xml] view processing...
+[INFO]   style:      "left.tss"
+[INFO]   view:       "left.xml"
+[INFO]   controller: "left.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/left.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/left.js"
+[INFO]   [profile.xml] view processing...
+[INFO]   style:      "profile.tss"
+[INFO]   view:       "profile.xml"
+[INFO]   controller: "profile.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/profile.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/profile.js"
+[INFO]   [synchronization.xml] view processing...
+[INFO]   style:      "synchronization.tss"
+[INFO]   view:       "synchronization.xml"
+[INFO]   controller: "synchronization.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/synchronization.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/synchronization.js"
+[INFO]   [tasks/tasksList.xml] view processing...
+[INFO]   style:      "tasks/tasksList.tss"
+[INFO]   view:       "tasks/tasksList.xml"
+[INFO]   controller: "tasks/tasksList.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/tasks/tasksList.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/tasks/tasksList.js"
+[INFO]   [tasks/tasks_sections.xml] view processing...
+[INFO]   style:      "tasks/tasks_sections.tss"
+[INFO]   view:       "tasks/tasks_sections.xml"
+[INFO]   controller: "tasks/tasks_sections.js"
+[INFO]   created:    "Resources/iphone/alloy/controllers/tasks/tasks_sections.js"
+[INFO]   created:     "Resources/iphone/alloy/styles/tasks/tasks_sections.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - alloy/moment.js
+[INFO]   - alloy/moment/lang/en-SG.js
+[INFO]   - alloy/moment/lang/en-au.js
+[INFO]   - alloy/moment/lang/en-ca.js
+[INFO]   - alloy/moment/lang/en-gb.js
+[INFO]   - alloy/moment/lang/en-ie.js
+[INFO]   - alloy/moment/lang/en-il.js
+[INFO]   - alloy/moment/lang/en-nz.js
+[INFO]   - iphone/alloy.bootstrap.js
+[INFO]   - iphone/alloy.js
+[INFO]   - iphone/alloy/models/Answers.js
+[INFO]   - iphone/alloy/models/AuditHistory.js
+[INFO]   - iphone/alloy/models/AuditRecord.js
+[INFO]   - iphone/alloy/models/Employees.js
+[INFO]   - iphone/alloy/models/Questions.js
+[INFO]   - iphone/alloy/models/Questions_answers_scorecard.js
+[INFO]   - iphone/alloy/models/Questions_scorecard.js
+[INFO]   - iphone/alloy/models/Sections.js
+[INFO]   - iphone/alloy/models/Stores.js
+[INFO]   - iphone/alloy/models/Tasks.js
+[INFO]   - iphone/alloy/models/Tasks_completed.js
+[INFO]   - iphone/alloy/models/Templates.js
+[INFO]   - iphone/alloy/models/User.js
+[INFO]   - iphone/alloy/models/User_depts.js
+[INFO]   - iphone/alloy/sync/localStorage.js
+[INFO]   - iphone/alloy/sync/properties.js
+[INFO]   - iphone/alloy/sync/sql.js
+[INFO]   - iphone/alloy/widgets/com.skypanther.alloypopover/styles/widget.js
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.drawer/styles/widget.js
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.loading/styles/view.js
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.loading/styles/widget.js
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.loading/styles/window.js
+[INFO]   - iphone/cachedData.js
+[INFO]   - iphone/model.js
+[INFO]   - iphone/tripledes.js
+[INFO]   - iphone/xml2json.js
+[INFO]   - iphone/xp.ui.js
+[DEBUG]  compile:trigger-> post:compile
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [11.92801s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 11.92801s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  Starting third-party framework detection
+[TRACE]  Scanning /Users/exsalameh/Desktop/iProductive-2/platform/ios for frameworks
+[TRACE]  Scanning /Users/exsalameh/Desktop/iProductive-2/modules/iphone/bencoding.blur/0.35 for frameworks
+[TRACE]  Scanning /Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/1.2.4 for frameworks
+[TRACE]  offline build file /var/folders/pt/rkfwd4q57z70cw0f694mrg5h0000gn/T/build-faf033f3eb6252c01b713cff3d54ae29e4b709aa.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"salamehmhammad8@gmail.com","session":"267dd27c4ebfdb2c4a72e150b10492078a60ab69 YwtLso7z8NnME3ToCy0PqTBhFFFpy9tv8WAR6tEfO3oBVFMyWT7mpudqA7dLPWVWfKfx1fkPoGvpHzOFGFJwptdjuj2whB2MRroHb2wOJvTzOQbOk4BTHeEuHqML8pUnjA2HnEnCcHTxub5T+t5Sm+t7IkMHiT5JnTuywNaOB5BGfYtLwCzHxUuTiDVqi2GBzPO186Ttg88lIagv85DnlzBwcuErazoUpuh0dmn3FxbT/uSYcFegymdXEdAaz28z7ToeW+505Tmmbde4Ihpn1CQhZ+p2uKKCgAIY8JNQ7Leg55yIULuRpXW5hUOI1jbWbgKUtgzMT7DdVc7bwizLQ1/4IKtJ6vW53CG6cn9OSx5dKW8rPLbffrNxk0SzOPwvSe2d2eVRwWgGSbDLfT8qv4KWbkFY4OWlWYswClEy60nrkYlc20WhEhmsS2uKQmIhcqzrNighW8OCycbn6SqxKiW5uf8ScWWUtT45kytsnYTGkX6OK/FrrFst0OXn8uh22CL5Ty/6N9d1cr0WBWmAxyHH/OI9yCUkKsOXYu9suznx2E9FQtFIAPESNWV2orjkx3STmNDwpKnWzo+nJsReZMpVhh35stIUaZZmfOfp807p0Toxh/nLra0JeIUaAdgOozFP9z5kWQ0pwsIeCuDVOI+KDHF6LAuwzkI1/2F64Sy6SLI2WvspY4obogOu+23sI1jG9xqPMEqZ/hUVdysJpEOQVlAyZfq09oSsyxaGy/s=","ipaddress":"192.168.71.136","fingerprint":"7b0aa530ce8cdbe1d6609c7a599fef7a9b237047","fingerprint_description":"Mac OSX Serial Number: C02S56UMFVH5","guid":"af73a970-6a27-4f6e-9999-bf8807f29f3a","appid":"com.carrefour.svmapp","name":"iProductive","org_id":627967467778755,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <property name=\"com-appcelerator-apm-id\" type=\"string\">***</property>\n  <property name=\"acs-api-key-production\" type=\"string\">***</property>\n  <property name=\"acs-authbase-url\" type=\"string\">***</property>\n  <property name=\"acs-base-url\" type=\"string\">***</property>\n  <property name=\"acs-api-key-development\" type=\"string\">***</property>\n  <id>com.carrefour.svmapp</id>\n  <!--com.carrefour.svmapp-->\n  <name>iProductive</name>\n  <version>4.0.0</version>\n  <publisher>Mojo Tribe</publisher>\n  <url>http://www.mojo-tribe.com</url>\n  <description>Carrefour iProduction App Audit and Tasks</description>\n  <copyright>2015 by Mojo Tribe</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>false</analytics>\n  <guid>af73a970-6a27-4f6e-9999-bf8807f29f3a</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>NSPhotoLibraryUsageDescription</key>\n        <string>Can we use your library?</string>\n        <key>NSCameraUsageDescription</key>\n        <string>Can we use your camera?</string>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <manifest>\n      <receiver android:name=\"bencoding.alarmmanager.AlarmNotificationListner\"/>\n      <receiver android:name=\"bencoding.alarmmanager.AlarmServiceListner\"/>\n      <supports-screens android:largeScreens=\"true\" android:normalScreens=\"true\" android:smallScreens=\"true\" android:xlargeScreens=\"true\"/>\n      <application android:largeHeap=\"true\" android:theme=\"@style/Theme.Svm\"/>\n      <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>\n      <uses-permission android:name=\"android.permission.WRITE_INTERNAL_STORAGE\"/>\n    </manifest>\n  </android>\n  <mobileweb>\n    <precache/>\n    <splash>\n      <enabled>true</enabled>\n      <inline-css-images>true</inline-css-images>\n    </splash>\n    <theme>default</theme>\n  </mobileweb>\n  <modules>\n    <module platform=\"iphone\">bencoding.blur</module>\n    <module platform=\"iphone\" version=\"1.2.4\">dk.napp.drawer</module>\n  </modules>\n  <deployment-targets>\n    <target device=\"android\">false</target>\n    <target device=\"blackberry\">false</target>\n    <target device=\"ipad\">true</target>\n    <target device=\"iphone\">true</target>\n    <target device=\"mobileweb\">false</target>\n  </deployment-targets>\n  <sdk-version>9.1.0.GA</sdk-version>\n  <plugins>\n    <plugin version=\"1.0\">ti.alloy</plugin>\n  </plugins>\n  <property name=\"appc-app-id\" type=\"string\">5da44a18dbc4e85e986d748b</property>\n</ti:app>","modules":[{"id":"bencoding.blur","platform":["ios"],"deployType":["development"],"version":"0.35","modulePath":"/Users/exsalameh/Desktop/iProductive-2/modules/iphone/bencoding.blur/0.35","manifest":{"version":"0.35","apiversion":2,"description":"BlurView implementation for Titanium","author":"Benjamin Bahrenburg","license":"Apache 2.0","copyright":"Copyright (c) 2014 by Benjamin Bahrenburg (bencoding)","name":"Blur","moduleid":"bencoding.blur","guid":"d85a60ff-a204-4a70-b16a-315bd61c7d0d","platform":"ios","minsdk":"3.2.0.GA"},"native":true,"libName":"libbencoding.blur.a","libFile":"/Users/exsalameh/Desktop/iProductive-2/modules/iphone/bencoding.blur/0.35/libbencoding.blur.a","isFramework":false,"hash":"7ea536dcb12d339a6d0e140187b6e509"},{"id":"dk.napp.drawer","platform":["ios"],"version":"1.2.4","deployType":["development"],"modulePath":"/Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/1.2.4","manifest":{"version":"1.2.4","apiversion":2,"architectures":["armv7","i386","x86_64","arm64"],"description":"Drawer controller","author":"Mads Møller","license":"MIT","copyright":"Napp ApS","name":"NappDrawer","moduleid":"dk.napp.drawer","guid":"2a446559-1d59-4808-aefc-7d02d3130ebb","platform":"ios","minsdk":"3.4.1.GA"},"native":true,"libName":"libdk.napp.drawer.a","libFile":"/Users/exsalameh/Desktop/iProductive-2/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a","isFramework":false,"hash":"1dcbd4c61b3ce3e4b30d21be4af6072b"}]},"gzip":true,"followAllRedirects":true,"url":"https://platform.axway.com/api/v1/auth/build-verify"}
+[TRACE]  result from /build-verify=> "com.appcelerator.platform.app.notorgteam", err={"body":{"message":"You do not have access to this application.","code":"com.appcelerator.platform.app.notorgteam","success":false},"resp":{"statusCode":400}}

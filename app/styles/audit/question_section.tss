@@ -1,0 +1,24 @@
+"#headerView": {
+	backgroundColor: '#7092BE',
+	height: 60
+}
+"#titleLbl": {
+	left: 10,
+	color: '#ffffff'
+}
+".weightView": {
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: 40,
+	layout: 'horizontal'
+}
+"#weightTotalLbl": {
+	right: 10,
+	height: 40,
+	color: '#ffffff'
+}
+"#weightLbl": {
+	right: 10,
+	height: 40,
+	color: '#ffffff'
+}

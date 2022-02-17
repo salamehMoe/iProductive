@@ -1,0 +1,60 @@
+<Alloy>
+	<Model src="user"/>
+	<Window title="Login">
+		<OptionDialog id="countryPopover" title="Select country" onClick="selectCountry" ><!-- platform="android" -->
+			<Options>
+				<Option>KSA</Option>
+				<Option>Iran</Option>
+				<Option>Egypt</Option>
+				<Option>Other</Option>
+			</Options>
+		</OptionDialog>
+		<!--Popover id="countryPopover" formFactor="tablet" platform="ios">
+			<ContentView>
+				<NavigationWindow width="250" height="300">
+					<Window title="Select Country">
+						<ListView onItemclick="selectCountry">
+							<ListSection>
+								<ListItem title="KSA" domain="Saudi" />
+								<ListItem title="Iran" domain="iran" />
+								<ListItem title="Egypt" domain="Egypt" />
+								<ListItem title="Other" domain="RTL_HO" />
+							</ListSection>
+						</ListView>
+					</Window>
+				</NavigationWindow>
+			</ContentView>
+		</Popover-->
+		<GPUBlurImageView class="bg" ns="Alloy.Globals.blur" platform="ios" />
+		<View class="bg" platform="!ios" />
+		<ScrollView>
+			<View id="container">
+				<View class="bgc" />
+				<View class="form">
+					<View class="TitleBar">
+						<ImageView class="logo" />
+						<Label class="title">iProductive</Label>
+						<ActivityIndicator id="loading" formFactor="tablet" />
+					</View>
+					<View class="splitter" />
+					<View class="txtFieldContainner">
+						<TextField id="username" class="txtField" onReturn="nextField" next="password" value="" />
+						<Button class="textBtn" backgroundImage="/images/icons/user.png" />
+					</View>
+					<View class="txtFieldContainner">
+						<TextField id="password" class="txtField" onReturn="login" value="" />
+						<Button class="textBtn" backgroundImage="/images/icons/password.png" />
+					</View>
+					<View class="txtFieldContainner">
+						<TextField id="country" class="txtField" onClick="countryPickerShow" value="Other" domain="RTL_HO" />
+						<Button class="textBtn" backgroundImage="/images/icons/picker.png" onClick="countryPickerShow" />
+					</View>
+					<View>
+						<Button onClick="login" id="loginBtn">Login</Button>
+						<ActivityIndicator id="loading" formFactor="handheld" />
+					</View>
+				</View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

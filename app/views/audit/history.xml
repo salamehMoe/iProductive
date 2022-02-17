@@ -1,0 +1,18 @@
+<Alloy>
+	<Collection src="auditRecord" />
+	<Window title="History" module="xp.ui" id="history">
+		<Require src="centerNavBtns" />
+		<ListView id="list" onItemclick="openTemplate">
+			<SearchBar platform="ios" />
+			<SearchView ns="Ti.UI.Android" platform="android"/>
+			<ListSection dataCollection="auditRecord" dataTransform="transformFunction">
+				<HeaderView>
+					<View id="headerView">
+						<Label>Completed audits which were submitted to the server</Label>
+					</View>
+				</HeaderView>
+				<ListItem title="{AuditName}" searchableText="{AuditName}" subtitle="{subTitle}" auditRecordID="{id}" storeCode="{storeCode}" deptCode="{deptCode}" AuditID="{AuditID}" openDate="{openDate}" submisiondDate="{submisiondDate}" submittedBy="{submittedBy}" online_id="{online_id}" CompanyTypeID="{CompanyTypeID}" DeptCode="{DeptCode}" AuditDesc="{AuditDesc}" Target="{Target}" type="{type}" comment="{comment}" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

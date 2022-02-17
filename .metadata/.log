@@ -1,0 +1,42 @@
+!SESSION 2019-10-27 20:06:52.575 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/muhamadjawdat/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/muhamadjawdat/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-10-27 20:07:07.513
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2019-10-27 20:08:17.255
+!MESSAGE (Build 5.1.4.201909061933) [ERROR]  2019-10-27T16:08:17.236Z | ERROR  | project not found at path /Users/muhamadjawdat/Documents/iProductive/iProductive
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-10-27 20:10:01.320
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2019-10-27 20:10:03.942 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/muhamadjawdat/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/muhamadjawdat/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-10-27 20:10:08.984
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2019-10-27 20:10:38.784
+!MESSAGE (Build 5.1.4.201909061933) [ERROR]  Error cleaning the project. A manual clean will be performed.
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-10-27 20:15:32.030
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2019-10-27 20:15:34.026 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/muhamadjawdat/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/muhamadjawdat/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-10-27 20:15:55.652
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

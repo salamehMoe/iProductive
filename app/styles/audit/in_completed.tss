@@ -1,0 +1,36 @@
+"#inCompleted":{
+	autoAdjustScrollViewInsets: false
+}
+"ListView[platform=ios]": {
+	top: 62
+}
+"#confirmDelete":{
+	message: "Are you sure you want to delete?"
+}
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+"ListView": {
+	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE,
+	}
+"ListItem": {
+	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
+	canEdit: true
+}
+"#subtitle":{ 
+	font: {fontSize: '10dp' },
+    left: '10dp', top: '40dp',
+    color:"black"
+}
+"#title": {
+    color: 'black',
+    left: '10dp', top: '15dp'
+}
+"#editBtn": {
+	right: 20
+}
+"#btn_delete": {
+	right: '45dp', top: '15dp',
+	color: "red"
+}

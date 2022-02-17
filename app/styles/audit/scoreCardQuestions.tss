@@ -1,0 +1,70 @@
+"#answersLayer": {
+	opacity: 1
+}
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+"#confirmAlert":{
+	message: "Select the source of the image"
+}
+"#deleteImage":{
+	message: "Are you sure you want to delete this image?"
+}
+
+
+".height":{
+	width: "100%",
+	height: Ti.UI.SIZE,
+	//backgroundColor: "transparent",
+	
+}
+
+".height[platform=ios]":{
+	selectionStyle: Titanium.UI.iOS.ListViewCellSelectionStyle.NONE
+	
+}
+".QuestionDesc":{
+	left: 22,
+	top: 10,
+	verticalAlign: "top",
+	color: "black",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 20,
+		fontWeight: 'bold'
+	}
+}
+".answerContainer":{
+	top:10,
+	left:0,
+	right:0,
+	bottom:8,
+	height: Ti.UI.SIZE,
+}
+".answerLabel":{
+	text:"Answer: ",
+	left:22,
+	color: "black",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 20
+	}
+}
+".answer":{
+	left: 105,
+	//text:"asdasdasdasd",
+	color: Alloy.CFG.borderColor,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 20
+	}
+}
+
+".theContainer":{
+	left:0,
+	right:0,
+	layout: "vertical",
+	height:Ti.UI.SIZE,
+	bottom:0
+}

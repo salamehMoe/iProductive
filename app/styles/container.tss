@@ -1,0 +1,23 @@
+"#drawer": {
+	closeDrawerGestureMode: "CLOSE_MODE_ALL",
+	openDrawerGestureMode: "OPEN_MODE_MARGIN",
+	showShadow: true,
+	leftDrawerWidth: 270,
+	rightDrawerWidth: 320,
+	statusBarStyle: "STATUSBAR_WHITE"
+}
+"#drawer[formFactor=handheld]": {
+	leftDrawerWidth: 300
+}
+"#drawer[platform=android]": {
+	closeDrawerGestureMode: "CLOSE_MODE_MARGIN"
+}
+"Window": {
+	backgroundColor: '#ffffff'
+}
+"#profileWin": {
+	autoAdjustScrollViewInsets: false,
+	title: 'Profile',
+	tintColor: Alloy.CFG.borderColor,
+	barColor: Alloy.CFG.tintColor
+}

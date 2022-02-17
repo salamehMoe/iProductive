@@ -1,0 +1,25 @@
+<Alloy>
+	<View id="answersLayer" title="Completed Audits">
+            <View class="overlay" />
+            <View id="containner">
+                <View class="TitleBar">
+                    <ImageView class="logo" />
+                    <Label id="titleLbl" />
+                </View>
+                <View class="splitter" />
+                <View class="txtField1Containner">
+                    <Label class="txtField1Lbl">Comment</Label>
+                    <TextArea id="Comment"   />
+                </View>
+                <View class="lblScoreContainner">
+                    <Label id="Score" class="lblScore">Hello world</Label>
+                </View>
+                
+                <View class="btnsContainner">
+                    <Button onClick="hideanswerLayer" class="backBtn" id="cancelBtn">Cancel</Button>
+                    <Button onClick="saveComment" class="darkBtn" id="saveBtn">Save Comment</Button>
+                </View>
+                <View height="20" />
+            </View>
+        </View>
+</Alloy>

@@ -1,0 +1,7 @@
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 40
+}
+"#titleLbl": {
+	left: 10
+}

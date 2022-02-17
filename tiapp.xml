@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="com-appcelerator-apm-id" type="string">54228dcdb8a5231e8c00009d</property>
+    <property name="acs-api-key-production" type="string">PfuBch3sFq37nRpwhZsF9DKdQ0WdKF5q</property>
+    <property name="acs-authbase-url" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-api-key-development" type="string">WBLLzcrKIXIGw1V05lYtSCPsGAWGjBr4</property>
+    <id>com.carrefour.svmapp</id>
+    <!--com.carrefour.svmapp-->
+    <name>iProductive</name>
+    <version>4.0.0</version>
+    <publisher>Mojo Tribe</publisher>
+    <url>http://www.mojo-tribe.com</url>
+    <description>Carrefour iProduction App Audit and Tasks</description>
+    <copyright>2015 by Mojo Tribe</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>af73a970-6a27-4f6e-9999-bf8807f29f3a</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>NSPhotoLibraryUsageDescription</key>
+                <string>Can we use your library?</string>
+                <key>NSCameraUsageDescription</key>
+                <string>Can we use your camera?</string>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <receiver android:name="bencoding.alarmmanager.AlarmNotificationListner"/>
+            <receiver android:name="bencoding.alarmmanager.AlarmServiceListner"/>
+            <supports-screens android:largeScreens="true"
+                android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+            <application android:largeHeap="true" android:theme="@style/Theme.Svm"/>
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+            <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="iphone">bencoding.blur</module>
+        <module platform="iphone" version="1.2.4">dk.napp.drawer</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>9.1.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">5da44a18dbc4e85e986d748b</property>
+</ti:app>

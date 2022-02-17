@@ -1,0 +1,50 @@
+".header": {
+	layout: "vertical",
+	height: Ti.UI.SIZE
+}
+"#lastSyncLbl": {
+	color: 'gray',
+	font: {
+		fontSize: 12
+	}
+}
+"#syncBtn": {
+	font: {
+		fontSize: 20,
+		fontWeight: 'bold'
+	}
+}
+".secHeader": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+"#pb": {
+	width: Ti.UI.FILL,
+	bottom: 0,
+	min: 1,
+	max: 10,
+	value: 1,
+	color: Alloy.CFG.borderColor,
+	tintColor: Alloy.CFG.tintColor,
+	message: 'Uploading ...',
+	font: {
+		fontSize: 14,
+		fontWeight: 'bold'
+	},
+	style: Titanium.UI.iOS.ProgressBarStyle.PLAIN
+}
+
+
+"#pb[platform=android]": {
+	message: '',
+	value: 0
+}
+
+
+".left": {
+	left: 20
+}
+".right": {
+	right: 20
+}
+"#downloadAuditSwitch": {}

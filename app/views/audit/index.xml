@@ -1,0 +1,36 @@
+<Alloy>
+    <Collection src="templates" />
+    <Window id="index" title="Audit templates" module="xp.ui">
+        <Require src="centerNavBtns" />
+        <ListView id="list" onItemclick="startSurvey" defaultItemTemplate="template">
+        	 <Templates>
+
+                <!-- Define your item templates within the Templates tags or use the
+                     Require tag to include a view that only contains an ItemTemplate -->
+
+                <ItemTemplate name="template">
+                    <Label bindId="info" id="title" />
+                    <Label bindId="es_info" id="subtitle" />
+                </ItemTemplate>
+
+            </Templates>
+            <SearchBar platform="ios" />
+            <SearchView ns="Ti.UI.Android" platform="android"/>
+            <ListSection dataCollection="templates" dataTransform="transformFunction">
+                <HeaderView>
+                    <View id="headerView">
+                        <Label>Welcome, please select a template to be completed</Label>
+                    </View>
+                </HeaderView>
+                <ListItem AuditID="{AuditID}" title="{AuditName}" CompanyTypeID="{CompanyTypeID}" DeptCode="{DeptCode}" Target="{Target}" info:text="{AuditName}" searchableText="{AuditName}" es_info:text="{AuditDesc}" type="{type}" />
+            </ListSection>
+        </ListView>
+        <AlertDialog id="confirmAlert">
+            <ButtonNames>
+                <ButtonName>OK</ButtonName>
+                <ButtonName>Cancel</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+        <Require src="audit/pre_survey" id="preSurveyView" platform = "ios"/>
+    </Window>
+</Alloy>

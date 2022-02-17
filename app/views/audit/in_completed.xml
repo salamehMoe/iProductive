@@ -1,0 +1,37 @@
+<Alloy>
+    <Collection src="auditRecord" />
+    <Window title="In Progress" module="xp.ui" id="inCompleted">
+        <Require src="centerNavBtns" />
+        <ListView id="list" onItemclick="openTemplate" onDelete="deleteMe" defaultItemTemplate="template">
+        	 <Templates>
+
+                <!-- Define your item templates within the Templates tags or use the
+                     Require tag to include a view that only contains an ItemTemplate -->
+
+                <ItemTemplate name="template">
+                    <Label bindId="info" id="title" />
+                    <Label bindId="es_info" id="subtitle" />
+                    <Button id="btn_delete" bindId="image" onClick="confirmDelete" platform="android">delete</Button>
+                </ItemTemplate>
+
+            </Templates>
+            <SearchBar platform="ios" />
+            <SearchView ns="Ti.UI.Android" platform="android"/>
+            <ListSection dataCollection="auditRecord" dataTransform="transformFunction">
+                <HeaderView>
+                    <View id="headerView">
+                        <Label>Audits started but not yet completed</Label>
+                        <Button id="editBtn" platform="ios">Edit</Button>
+                    </View>
+                </HeaderView>
+                <ListItem image:text="delete" title="{AuditName}" info:text="{AuditName}" searchableText="{AuditName}" es_info:text="{subTitle}" auditRecordID="{id}" storeCode="{storeCode}" deptCode="{deptCode}" AuditID="{AuditID}" openDate="{openDate}" submisiondDate="{submisiondDate}" submittedBy="{submittedBy}" online_id="{online_id}" CompanyTypeID="{CompanyTypeID}" DeptCode="{DeptCode}" AuditDesc="{AuditDesc}" Target="{Target}" type="{type}" comment="{comment}" />
+            </ListSection>
+        </ListView>
+        <AlertDialog id="confirmDelete">
+            <ButtonNames>
+                <ButtonName>Yes</ButtonName>
+                <ButtonName>No</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+    </Window>
+</Alloy>

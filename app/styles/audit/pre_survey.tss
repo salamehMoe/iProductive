@@ -1,0 +1,84 @@
+"#pre_survey": {
+	opacity: 0//make it to zero again
+}
+"#containner": {
+	layout: 'vertical',
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ffffff',
+	width: '80%',
+	borderRadius: 2
+}
+"ListItem": {
+	height: 50
+}
+".TitleBar": {
+	height: 60
+}
+".logo": {
+	width: 50,
+	height: 50,
+	image: '/appicon.png',
+	left: 10,
+	//backgroundColor: 'red'
+}
+"#titleLbl": {
+	left: 70,
+	font: {
+		fontSize: 22
+	}
+}
+"#tempName": {
+	editable: false,
+}
+"#employeeList": {
+	autoAdjustScrollViewInsets: false
+}
+".txtField1Containner": {
+	backgroundColor: 'silver',
+	layout: "horizontal",
+	width: '80%',
+	height: 42,
+	top: 20
+}
+".txtField1Lbl": {
+	backgroundColor: "#ffffff",
+	left: 1,
+	bottom: 1,
+	height: Ti.UI.FILL,
+	width: 150,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: "silver"
+}
+".btnsContainner": {
+	layout: 'horizontal',
+	right: '10%',
+	top: 20,
+	width: Ti.UI.SIZE,
+	height: 40
+}
+"#backBtn": {
+	width: 100,
+	right: 20
+}
+"#startBtn": {
+	width: 180
+}
+"#date": {
+	rightButton: '/images/icons/calendar.png'
+}
+"#auditBy": {
+	editable: false
+}
+"#storeinForm": {
+	editable: false
+}
+"#store": {
+	editable: false
+}
+"#date": {
+	editable: false
+}
+
+"#storeType":{
+	editable: false
+}

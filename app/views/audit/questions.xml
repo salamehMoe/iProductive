@@ -1,0 +1,99 @@
+<Alloy>
+    <Window module="xp.ui">
+        <ListView id="list" defaultItemTemplate="elementTemplate" onItemclick="listClicked">
+            <Templates>
+                <ItemTemplate name="elementTemplate" class="height">
+                    <View class="theContainer">
+                        <Label bindId="QuestionDesc" class="QuestionDesc" />
+                        <TextArea height="Ti.UI.SIZE" right="22" onChange="protectPreviousAnswer" bindId="PreviousAnswer" class="PreviousAnswer"/>
+                        <!--TextArea height="Ti.UI.SIZE" right="22" onChange="protectPreviousAnswerValue" bindId="PreviousAnswerValue" class="PreviousAnswerValue"/-->
+                        <View class="commentPhotosContainer" bindId="commentPhotosContainer">
+                            <Label bindId="yes" text="Yes" right="100" class="YNtoolBar" top="0" />
+                            <Label bindId="no" text="No" right="10" class="YNtoolBar" top="0" />
+                            <Label bindId="na" text="NA" right="100" class="YNtoolBar" top="60" />
+                            <Label bindId="pd" text="PD" right="10" class="YNtoolBar" top="60" />
+                            <!-- <Label  bindId="fuck" text="FUCK" right="50" class="YNtoolBar" top="30"/> -->
+                            <TextArea class="comment" bindId="commentTxtArea" onBlur="saveComment" onFocus="showAlertdialog"/>
+                            <ImageView bindId="camera" class="camera" />
+                            <ImageView bindId="Image" class="images" left="85" />
+                            <ImageView bindId="Image1" class="images" left="165" />
+                        </View>
+                    </View>
+                </ItemTemplate>
+                 <ItemTemplate name="template">
+                    <Label bindId="info" id="title" />
+                    <Label bindId="es_info" id="subtitle" />
+                </ItemTemplate>
+                  <ItemTemplate name="elementFuckedTemplate" class="height">
+                    <View class="theContainer">
+                        <Label bindId="QuestionDesc" class="QuestionDesc" />
+                        <View class="commentPhotosContainer" bindId="commentPhotosContainer">
+
+                             <Label bindId="zero" text="0" right="120" class="RanktoolBar" top="0" />
+                            <Label bindId="one" text="1" right="60" class="RanktoolBar"  top="0" />
+                            <Label bindId="two" text="2" right="2" class="RanktoolBar" top="0" />
+                            <Label bindId="three" text="3" right="120" class="RanktoolBar" top="60" />
+                            <Label bindId="four" text="4" right="60" class="RanktoolBar" top="60" />
+                            <Label bindId="five" text="5" right="2" class="RanktoolBar" top="60" />
+
+                            <Label bindId="fo" text="FO" right="10" class="YNtoolBar" top="60" />
+                            <TextArea class="comment" bindId="commentTxtArea" onBlur="saveComment" onFocus="showAlertdialog"/>
+                            <ImageView bindId="camera" class="camera" />
+                            <ImageView bindId="Image" class="images" left="85" />
+                            <ImageView bindId="Image1" class="images" left="165" />
+                        </View>
+                    </View>
+                </ItemTemplate>
+                  <ItemTemplate name="disabledElementTemplate" class="height">
+                    <View class="theContainer">
+                        <Label bindId="QuestionDesc" class="QuestionDesc" />
+                        <View class="commentPhotosContainer" bindId="commentPhotosContainer">
+                            <Label bindId="yes" text="Yes" right="100" class="YNtoolBar" top="0" />
+                            <Label bindId="no" text="No" right="10" class="YNtoolBar" top="0" />
+                            <Label bindId="na" text="NA" right="100" class="YNtoolBar" top="60" />
+                            <Label bindId="pd" text="PD" right="10" class="YNtoolBar" top="60" />
+
+                            <Label bindId="fo" text="FO" right="10" class="YNtoolBar" top="60" />
+
+                            <Label bindId="zero" text="0" right="120" class="RanktoolBar" backgroundColor="red" top="0" />
+                            <Label bindId="one" text="1" right="60" class="RanktoolBar" backgroundColor="yellow" top="0" />
+                            <Label bindId="two" text="2" right="2" class="RanktoolBar" backgroundColor="green" top="0" />
+                            <Label bindId="three" text="3" right="120" class="RanktoolBar" top="60" />
+                            <Label bindId="four" text="4" right="60" class="RanktoolBar" top="60" />
+                            <Label bindId="five" text="5" right="2" class="RanktoolBar" top="60" />
+
+
+                            <TextArea enabled="false" class="comment" bindId="commentTxtArea" />
+                            <ImageView bindId="camera" class="camera" />
+                            <ImageView bindId="Image" class="images" left="85" autorotate="true" />
+                            <ImageView bindId="Image1" class="images" left="165" autorotate="true"/>
+                        </View>
+                    </View>
+                </ItemTemplate>
+            </Templates>
+        </ListView>
+        <!-- Android Dialog TextBox -->
+
+        <AlertDialog id="commentAlert">
+              <TextArea id="editText" hintText="Comment..."/>
+              <ButtonNames>
+                <ButtonName>Save</ButtonName>
+                <ButtonName>Cancel</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+
+        <AlertDialog id="confirmAlert">
+            <ButtonNames>
+                <ButtonName>Camera</ButtonName>
+                <ButtonName>Gallery</ButtonName>
+                <ButtonName>Cancel</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+        <AlertDialog id="deleteImage">
+            <ButtonNames>
+                <ButtonName>Yes</ButtonName>
+                <ButtonName>No</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+    </Window>
+</Alloy>

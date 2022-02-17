@@ -1,0 +1,84 @@
+"#container": {
+	height: 330,
+	width: '90%',
+	bottom: 20,
+	borderRadius: 10,
+	borderColor: 'silver'
+}
+"#container[formFactor=tablet]": {
+	top: "15%",
+	width: '70%'
+}
+"ActivityIndicator": {
+	right: 20
+}
+".bgc": {
+	backgroundColor: '#ffffff',
+	opacity: 0.8
+}
+".form": {
+	layout: "vertical"
+}
+".TitleBar": {
+	height: 60
+}
+".logo": {
+	height: 50,
+	image: '/images/appicon.png',
+	left: 10
+}
+".title": {
+	left: 70,
+	font: {
+		fontSize: 22
+	}
+}
+"#username": {
+	hintText: "Username"
+}
+"#password": {
+	hintText: "Password",
+	passwordMask: true
+}
+"#country": {
+	hintText: "Country",
+	editable: false
+}
+"#countryPopover": {}
+"ListItem": {
+	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_NONE
+}
+"#loginBtn": {
+	right: 20,
+	top: 20,
+	height: 40,
+	width: 80,
+	borderRadius: 5,
+	borderColor: Alloy.CFG.borderColor,
+	tintColor: Alloy.CFG.borderColor
+}
+
+/*
+ * Android Styles
+ * 
+ */
+"Window[platform=android]": {
+	exitOnClose: true
+}
+
+"#container[formFactor=handheld]": {
+	top: "15%"
+}
+".title[formFactor=handheld]": {
+	font: {
+		fontSize: 16
+	}
+}
+"#loginBtn[formFactor=handheld]": {
+	width: Ti.UI.FILL,
+	left: 20
+}
+"#loading[platform=android]": {
+	right: null,
+	color: Alloy.CFG.borderColor
+}

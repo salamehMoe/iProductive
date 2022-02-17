@@ -1,0 +1,76 @@
+<Alloy>
+	<Collection src="auditRecord" />
+	<Collection src="templates" />
+	<Collection src="tasks" />
+	<Collection src="tasks_completed" />
+	<Collection src="questions" />
+	<Model src="user" />
+	<Window title="Synchronization" module="xp.ui">
+		<Require src="centerNavBtns" />
+		<ListView id="list">
+			<HeaderView>
+				<View class="header">
+					<Button id="syncBtn">Start sync</Button>
+					<Label id="lastSyncLbl"></Label>   <!-- {user.LastSyncDate} -->
+				</View>
+			</HeaderView>
+			<ListSection id="downloadAuditSec">
+				<HeaderView>
+					<View class="secHeader">
+						<Label class="left">Download iProductive data</Label>
+						<ActivityIndicator id="auditDownLoading" />
+						<Switch id="downloadAuditSwitch" class="right" enabled="{user.EnableSyncBool}" value="{user.ForceSyncBool}" />
+					</View>
+				</HeaderView>
+				<ListItem title="Audit Templates" subtitle="Audit checklists structures." />
+				<ListItem title="Audit Sections & Categories" subtitle="Audit questions sections under each template" />
+				<ListItem title="Audit Questions" subtitle="Audit questions under each template" />
+				<ListItem title="Stores" />
+			</ListSection>
+			<ListSection id="downloadScoreCardSec">
+				<HeaderView>
+					<View class="secHeader">
+						<Label class="left">Download ScoreCard data</Label>
+						<ActivityIndicator id="scoreCardDownLoading" />
+						<Switch id="downloadScoreCardSwitch" class="right" enabled="{user.EnableSyncBool}" value="{user.ForceSyncBool}" />
+					</View>
+				</HeaderView>
+				<ListItem title="ScoreCard Templates" />
+				<ListItem title="ScoreCard Sections & Categories" />
+				<ListItem title="ScoreCard Questions" subtitle="Audit questions under each template" />
+				<ListItem title="Employees" />
+			</ListSection>
+			<ListSection id="uploadAuditSec" dataCollection="auditRecord" dataTransform="uploadAuditTransform">
+				<HeaderView>
+					<View class="secHeader">
+						<Label class="left">Upload iProductive & ScoreCard records</Label>
+						<Switch id="uploadAuditSwitch" class="right" enabled="{user.EnableSyncBool}" value="{user.ForceSyncBool}" />
+						<ProgressBar id="pb" />
+					</View>
+				</HeaderView>
+				<ListItem title="{AuditName}" subtitle="{subTitle}" auditRecordID="{id}" storeCode="{storeCode}" deptCode="{deptCode}" AuditID="{AuditID}" openDate="{openDate}" submisiondDate="{submisiondDate}" submittedBy="{submittedBy}" online_id="{online_id}" CompanyTypeID="{CompanyTypeID}" DeptCode="{DeptCode}" AuditDesc="{AuditDesc}" Target="{Target}" accessoryType="{accessoryType}" type="{type}" />
+			</ListSection>
+			<ListSection id="downloadTaskSec">
+				<HeaderView>
+					<View class="secHeader">
+						<Label class="left">Download Tasks</Label>
+						<ActivityIndicator id="taskDownLoading" />
+						<Switch id="downloadTaskSwitch" class="right" enabled="{user.EnableSyncBool}" value="{user.ForceSyncBool}" />
+					</View>
+				</HeaderView>
+				<ListItem title="Department"/>
+				<ListItem title="Tasks & Lists"/>
+			</ListSection>
+			<ListSection id="uploadTasksSec" dataCollection="tasks_completed" dataTransform="uploadTasksTransform">
+				<HeaderView>
+					<View class="secHeader">
+						<Label class="left">Upload completed Tasks</Label>
+						<ActivityIndicator id="taskUpLoading" />
+						<Switch id="uploadTaskSwitch" class="right" enabled="{user.EnableSyncBool}" value="{user.ForceSyncBool}" />
+					</View>
+				</HeaderView>
+				<ListItem title="{title}" TaskID="{TaskID}" subtitle="{subTitle}" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

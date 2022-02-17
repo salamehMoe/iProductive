@@ -1,0 +1,8 @@
+<Alloy>
+	<RightNavButton>
+		<Button image="/images/icons/user.png" onClick="profileOpen" />
+	</RightNavButton>
+	<LeftNavButton>
+		<Button image="/images/icons/menu.png" onClick="menuOpen" />
+	</LeftNavButton>
+</Alloy>

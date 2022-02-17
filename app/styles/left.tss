@@ -1,0 +1,106 @@
+"#list": {
+	separatorColor: "transparent",
+	top: 140,
+	backgroundColor:"#E5E5E5"
+}
+"#avatar": {
+	width: 80,
+	height: 80,
+	borderRadius: 40,
+	top: 40,
+	left: 10,
+	backgroundImage: "/images/user.png"
+}
+"#avatar[formFactor=handheld]": {
+	width: 70,
+	height: 70,
+	borderRadius: 35,
+	top: 40,
+	left: 10,
+	backgroundImage: "/images/user.png"
+}
+"#name":{
+	color: "#115EAC",
+	font: {
+		fontSize: 24,
+		fontWeight: "bold"
+	},
+	left: 100,
+	textAlign: "left",
+	zIndex: 4
+}
+"#name[formFactor=handheld]":{
+	color: "#115EAC",
+	font: {
+		fontSize: 22
+	},
+	left: 100,
+	textAlign: "left",
+	zIndex: 4
+}
+".profileViw": {
+	top: 0,
+	height: 140
+}
+".headers": {
+	backgroundColor: "#ffffff",
+	height: 52,
+	separatorColor: "#115EAC"
+}
+".headersTitle":{
+	color: "#115EAC",
+	font: {
+		fontSize: 22,
+		fontWeight: "bold"
+	},
+	left: 25
+}
+".headersTitle[formFactor=handheld]":{
+	color: "#115EAC",
+	font: {
+		fontSize: 20
+	},
+	left: 25
+}
+".sep": {
+	bottom: 0,
+	height: 1,
+	left: 0,
+	right: 10,
+	backgroundColor: "gray"
+}
+".height": {
+	height: 65,
+	backgroundColor: "#E5E5E5"
+}
+".height[formFactor=handheld]":{
+	height: 45,
+	backgroundColor: "#E5E5E5"
+}
+".icon":{
+	width: 42,
+	height: 42,
+	left: 8
+}
+".icon[formFactor=handheld]":{
+	width: 30,
+	height: 30,
+	left: 7
+}
+".Title":{
+	left: 65,
+	color: "#115EAC",
+	font: {
+		fontSize: 18
+	}
+}
+".Title[formFactor=handheld]":{
+	left: 50,
+	color: "#115EAC",
+	font: {
+		fontSize: 16
+	}
+}
+"ListItem[platform=ios]":{
+	selectionStyle: Titanium.UI.iOS.ListViewCellSelectionStyle.BLUE
+}

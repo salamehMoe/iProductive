@@ -1,0 +1,76 @@
+<Alloy>
+	<Collection src="sections" />
+	<Window id="sections" title="Template Sections" module="xp.ui" >
+		<ListView id="list" onItemclick="clickSection" defaultItemTemplate="template">
+            <Templates>
+
+                <!-- Define your item templates within the Templates tags or use the
+                     Require tag to include a view that only contains an ItemTemplate -->
+
+                <ItemTemplate name="template">
+                    <Label bindId="info" id="title" />
+                    <Label bindId="es_info" id="subtitle" />
+                </ItemTemplate>
+
+            </Templates>
+			<SearchBar platform="ios" />
+			<SearchView ns="Ti.UI.Android" platform="android"/>
+			<ListSection dataCollection="sections" dataTransform="transformFunction">
+				<HeaderView>
+					<View id="headerView">
+						<Label id="sectionHeaderLbl"/>
+						<Button id="commentBtn" onClick="openComment">Comment</Button>
+					</View>
+				</HeaderView>
+				<ListItem SectionID="{SectionID}" info:text="{SectionDesc}" es_info:text="{subTitle}" searchableText="{SectionDesc}"  weightTotal="{weightTotal}" />
+			</ListSection>
+		</ListView>
+		<!--<View id="answersLayer" title="Completed Audits">
+			<View class="overlay" />
+			<View id="containner">
+				<View class="TitleBar">
+					<ImageView class="logo" />
+					<Label id="titleLbl" />
+				</View>
+				<View class="splitter" />
+				<View class="txtField1Containner">
+					<Label class="txtField1Lbl">Comment</Label>
+					<TextArea id="Comment"   />
+				</View>
+				<View class="lblScoreContainner">
+                    <Label id="Score" class="lblScore">Hello world</Label>
+                </View>
+                
+				<View class="btnsContainner">
+					<Button onClick="hideanswerLayer" class="backBtn" id="cancelBtn">Cancel</Button>
+					<Button onClick="saveComment" class="darkBtn" id="saveBtn">Save Comment</Button>
+				</View>
+				<View height="20" />
+			</View>
+		</View> -->
+		
+	</Window>
+	   <View id="answersLayer" title="Completed Audits">
+            <View class="overlay" />
+            <View id="containner">
+                <View class="TitleBar">
+                    <ImageView class="logo" />
+                    <Label id="titleLbl" />
+                </View>
+                <View class="splitter" />
+                <View class="txtField1Containner">
+                    <Label class="txtField1Lbl">Comment</Label>
+                    <TextArea id="Comment"   />
+                </View>
+                <View class="lblScoreContainner">
+                    <Label id="Score" class="lblScore">Hello world</Label>
+                </View>
+                
+                <View class="btnsContainner">
+                    <Button onClick="hideanswerLayer" class="backBtn" id="cancelBtn">Cancel</Button>
+                    <Button onClick="saveComment" class="darkBtn" id="saveBtn">Save Comment</Button>
+                </View>
+                <View height="20" />
+            </View>
+        </View> 
+</Alloy>

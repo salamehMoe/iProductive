@@ -1,0 +1,9 @@
+<Alloy>
+	<Collection src="tasks" />
+	<Collection src="tasks_completed" />
+	<Collection src="auditRecord" />
+	<Window title="Dashboard" module="xp.ui">
+		<Require src="centerNavBtns" platform="ios" />
+		<WebView onLoad="loaded" url="/html/chart.htm" disableBounce="true" scalesPageToFit="true" enableZoomControls="false" />
+	</Window>
+</Alloy>

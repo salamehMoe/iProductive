@@ -1,0 +1,150 @@
+"#sections":{
+	autoAdjustScrollViewInsets: false
+}
+"ListView[platform=ios]": {
+	top: 62
+}
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+"ListView": {
+	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE,
+
+
+}
+
+
+"#subtitle":{
+	font: {fontSize: '14dp' },
+    left: '10dp', top: '25dp',
+    color:"blue"
+}
+
+"#title": {
+    color: 'black',
+    left: '10dp', top: 0
+},
+
+
+"ListItem": {
+	height: 60,
+
+	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
+}
+"#commentBtn": {
+	right: 20,
+	color: "white",
+	backgroundColor: "#115EAC",
+	width: 105,
+	borderRadius: 3
+}
+"#answersLayer": {
+	opacity: 0
+}
+"#Comment":{
+	top: 0,
+	left: 0 ,
+	right: 0,
+	bottom: 2,
+	hintText: "comment....",
+	padding: {
+		left: 3
+	},
+	padding: {
+		right: 3
+	},
+	font:{
+		fontSize: 19
+	},
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+	bubbleParent: false
+}
+
+"#Comment[platform=android]": {
+
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+"#containner": {
+	layout: 'vertical',
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ffffff',
+	width: '80%',
+	borderRadius: 2
+}
+".TitleBar": {
+	height: 60
+}
+".logo": {
+	width: 50,
+	height: 50,
+	image: '/appicon.png',
+	left: 10,
+	//backgroundColor: 'red'
+}
+"#titleLbl": {
+	text: "Add comment to the Template",
+	left: 73,
+	font: {
+		fontSize: 22
+	}
+}
+".txtField1Containner": {
+	backgroundColor: 'silver',
+	layout: "horizontal",
+	width: '80%',
+	height: 200,
+	top: 20
+}
+".lblScoreContainner": {
+	backgroundColor: 'white',
+	layout: "horizontal",
+	width: '90%',
+	height: 40,
+	top: 60
+}
+
+".lblScore": {
+	backgroundColor: "#ffffff",
+	font:{
+		fontSize: 16
+	},
+	left: 1,
+	bottom: 2,
+	height: Ti.UI.FILL,
+	width: 300,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: "blue",
+	textAlign: "center"
+}
+
+".txtField1Lbl": {
+	backgroundColor: "#ffffff",
+	font:{
+		fontSize: 19
+	},
+	left: 1,
+	bottom: 2,
+	height: Ti.UI.FILL,
+	width: 110,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: "silver",
+	textAlign: "center"
+}
+".btnsContainner": {
+	layout: 'horizontal',
+	right: '10%',
+	top: 70,
+	width: Ti.UI.SIZE,
+	height: 40
+}
+"#cancelBtn": {
+	width: 100,
+	right: 20
+}
+"#saveBtn": {
+	width: 180
+}

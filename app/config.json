@@ -1,0 +1,22 @@
+{
+	"global": {
+		"tintColor": "#ED1E26",
+		"borderColor": "#115EAC",
+		"url": "https://webapps.retailsso.com/ws_dosiv_test/webservice.asmx",
+
+		"userAccessCode": "J/Xddn6Lhe3JF1HatNVOuJEuKAzhIF4Y"
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {
+		"nl.fokkezb.drawer": "*",
+		"nl.fokkezb.loading": "*",
+        "com.skypanther.alloypopover": "1.2"
+
+	}
+}

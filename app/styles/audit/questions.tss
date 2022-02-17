@@ -1,0 +1,157 @@
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+"#confirmAlert":{
+	message: "Select the source of the image"
+}
+"#deleteImage":{
+	message: "Are you sure you want to delete this image?"
+}
+"ListView": {}
+
+".height":{
+	width: "100%",
+	height: Ti.UI.SIZE,
+	//backgroundColor: "transparent",
+	//selectionStyle: Titanium.UI.iOS.ListViewCellSelectionStyle.NONE
+}
+".height[platform=ios]":{
+	//backgroundColor: "transparent",
+	selectionStyle: Titanium.UI.iOS.ListViewCellSelectionStyle.NONE
+}
+
+".PreviousAnswer": {
+	left: 22,
+	top: 10,
+	verticalAlign: "top",
+	color: "red",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 20
+	}
+}
+".QuestionDesc":{
+	left: 22,
+	top: 10,
+	verticalAlign: "top",
+	color: "black",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 20
+	}
+}
+".YNtoolBar":{
+	//top: 0,
+	//bottom: 15,
+	width: 80,
+	height: 50,
+	textAlign: "center",
+	color: "white",
+	font:{
+		fontSize: 22,
+		fontWeight: "bold"
+	},
+	backgroundColor: "gray",
+	borderRadius: 6,
+	bubbleParent: true
+}
+
+".RanktoolBar":{
+	//top: 0,
+	//bottom: 15,
+	width: 50,
+	height: 50,
+	textAlign: "center",
+	color: "white",
+	font:{
+		fontSize: 15,
+		fontWeight: "bold"
+	},
+	backgroundColor: "#5BCAFF",
+	borderRadius: 25,
+	bubbleParent: true
+
+}
+
+".camera":{
+	//top: 60,
+	bottom: 15,
+	image: "/images/icons/camera.png",
+	width: 40,
+	height: 35,
+	left: 30
+}
+
+".comment":{
+	top: 0,
+	hintText: "comment....",
+	padding: {
+		left: 3
+	},
+	padding: {
+		right: 3
+	},
+	font:{
+		fontSize: 18
+	},
+	//paddingLeft: 3,
+	//width: 300,
+	height: 57,
+	left: 22,
+	right: 200,
+	borderColor: "#115EAC",
+	borderWidth: 1,
+	borderWidth: 1,
+	borderRadius: 6,
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+".theContainer":{
+	//backgroundColor: "red",
+	//top: 80,
+	layout: "vertical",
+	height:Ti.UI.SIZE
+}
+".commentPhotosContainer":{
+	top: 10,
+	height: 115
+}
+".images":{
+	bottom: 5,
+	image: "/images/Carrefour-Logo.jpg",
+	width: 75,
+	height: 75
+}
+
+"#commentAlert":{
+ message: "Enter question Comment",
+ width: "70%"
+}
+
+"#editText":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+"#subtitle":{
+	font: {fontSize: '14dp' },
+    left: '10dp', top: '25dp',
+    color:"blue"
+}
+
+"#title": {
+    color: 'black',
+    left: '10dp', top: 0
+},
+
+'.PreviousAnswerValue': {
+	left: 22,
+	top: 10,
+	verticalAlign: "top",
+	color: "blue",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 20
+	}
+}

@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="tasks_list" title="Tasks" module="xp.ui">
+	         <Require src="centerNavBtns" />
+	         <Button id="completedTasks" onClick="showHideCompleted" anchorPoint="center" layout="absolute"/>
+	         
+		    <ListView id="list" defaultItemTemplate="elementTemplate" width="auto">
+			<SearchBar platform="ios" />
+			<SearchView ns="Ti.UI.Android" platform="android"/>
+			<Templates>
+				<ItemTemplate name="elementTemplate" backgroundColor="#fefbf7" height="auto">
+					<View id="theContainer" onSwipe="swipeOnTask" onClick="swipeOnTask" height="auto">
+						<ImageView bindId="priorityIcon" class="priorityIcon" />
+						<Label bindId="taskTitle" class="taskTitle" height="auto"/>
+						<ImageView bindId="doneMark" class="doneMark" />
+						<ImageView bindId="notdoneMark" class="notdoneMark" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+		</ListView>
+	</Window>
+</Alloy>

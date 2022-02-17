@@ -1,0 +1,71 @@
+"#alertDialog": {
+	title: 'Logout',
+	message: 'Are you sure?'
+}
+"ListItem": {
+	height: 50
+}
+".form": {
+	layout: "vertical"
+}
+".form[platform=ios]": {
+	top: 60
+}
+"Label": {
+	width: '80%'
+}
+"#username": {
+	editable: false,
+	hintText: "Username"
+}
+"#startOfWeek": {
+	editable: false,
+	hintText: 'Start of work week'
+}
+"#endOfWeek": {
+	editable: false,
+	hintText: 'End of work week'
+}
+"#endOfMonth": {
+	editable: false,
+	hintText: 'End of month date'
+}
+"#endOfQuarter": {
+	editable: false,
+	hintText: 'End of quarter date'
+}
+"#endOfSemester": {
+	editable: false,
+	hintText: 'End of semester date'
+}
+"#endOfYear": {
+	editable: false,
+	hintText: 'End of year date'
+}
+"#ForceSync": {
+	editable: false,
+	hintText: 'Sync Check List'
+}
+"#weekPopover": {}
+
+"#datePopover": {}
+
+"#datePicker": {}
+"Button": {
+	top: 15,
+	width: 120
+}
+
+".textBtn": {
+	top: null
+}
+"#versionCode":{
+	editable: false,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"TextField[formFactor=handheld]": {
+	font:{
+		size: 18
+	}
+}

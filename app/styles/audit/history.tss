@@ -1,0 +1,17 @@
+"#history":{
+	autoAdjustScrollViewInsets: false
+}
+"ListView[platform=ios]": {
+	top: 62
+}
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+"ListView": {
+	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE,
+	
+}
+"ListItem": {
+	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
+}

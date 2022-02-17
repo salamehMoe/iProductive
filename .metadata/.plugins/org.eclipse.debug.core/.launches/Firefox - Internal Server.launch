@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.aptana.js.debug.core.webbrowserLaunchConfigurationType">
+<booleanAttribute key="advancedRunEnabled" value="false"/>
+<booleanAttribute key="appendProjectName" value="true"/>
+<stringAttribute key="browserExecutable" value=""/>
+<stringAttribute key="browserNature" value="Firefox"/>
+<stringAttribute key="externalBaseUrl" value=""/>
+<stringAttribute key="httpGetData" value=""/>
+<stringAttribute key="httpPostContentType" value=""/>
+<stringAttribute key="httpPostData" value=""/>
+<intAttribute key="serverType" value="1"/>
+<intAttribute key="startActionType" value="1"/>
+<stringAttribute key="startPagePath" value=""/>
+<stringAttribute key="startPageUrl" value=""/>
+</launchConfiguration>

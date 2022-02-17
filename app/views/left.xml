@@ -1,0 +1,54 @@
+<Alloy>
+	<Collection src="tasks" />
+	<Model src="user" />
+	<View>
+		<View class="profileViw">
+			<GPUBlurImageView class="bg" ns="Alloy.Globals.blur" platform="ios" />
+			<ImageView class="bg" platform="android" />
+			<ImageView id="avatar" onClick="changeUserImage" />
+			<Label id="name">{user.Username}</Label>
+		</View>
+		<ListView id="list" onItemclick="openScreen" defaultItemTemplate="elementTemplate">
+			<Templates>
+				<ItemTemplate name="elementTemplate" backgroundColor="#E5E5E5" height="45" >
+					<View class="height">
+					<ImageView bindId="icon" class="icon" />
+					<Label bindId="Title" class="Title" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="dashboardSec">
+				<ListItem icon:image="/images/icons/home.png" Title:text="Dashboard" ref="home" />
+			</ListSection>
+			<ListSection id="auditSec">
+				<HeaderView>
+					<View class="headers">
+						<Label class="headersTitle">My Audits</Label>
+						<View class="sep" />
+					</View>
+				</HeaderView>
+				<ListItem icon:image="/images/icons/template.png" Title:text="Templates" ref="audit/index" />
+				<ListItem icon:image="/images/icons/document.png" Title:text="Incomplete" ref="audit/in_completed" />
+				<ListItem icon:image="/images/icons/checkmark.png" Title:text="Complete" ref="audit/completed" />
+				<ListItem icon:image="/images/icons/history.png" Title:text="History" ref="audit/history" />
+			</ListSection>
+			<ListSection id="tasksSec" dataCollection="tasks">
+				<HeaderView>
+					<View class="headers">
+						<Label class="headersTitle">My Tasks</Label>
+						<View class="sep" />
+					</View>
+				</HeaderView>
+				<ListItem icon:image="/images/icons/calendar.png" Title:text="{TaskName}" ref="tasks/tasksList" res="{TaskID}" />
+			</ListSection>
+			<ListSection id="syncSec">
+				<HeaderView>
+					<View class="headers" height="15">
+						<View class="sep" />
+					</View>
+				</HeaderView>
+				<ListItem icon:image="/images/icons/cloud.png" Title:text="Synchronization" ref="synchronization" />
+			</ListSection>
+		</ListView>
+	</View>
+</Alloy>

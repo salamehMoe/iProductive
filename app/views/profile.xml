@@ -1,0 +1,92 @@
+<Alloy>
+	<Model src="user" />
+	<View>
+		<AlertDialog id="alertDialog">
+			<ButtonNames>
+				<ButtonName>OK</ButtonName>
+				<ButtonName>Cancel</ButtonName>
+			</ButtonNames>
+		</AlertDialog>
+	<OptionDialog id="weekPopover" title="Select day" onClick="selectWeek" cancel="7"> <!-- formFactor="handheld"  -->
+        <Options>
+            <Option>Sunday</Option>
+            <Option>Monday</Option>
+            <Option>Tuesday</Option>
+            <Option>Wednesday</Option>
+            <Option>Thursday</Option>
+            <Option>Friday</Option>
+            <Option>Saturday</Option>
+            <Option platform="ios">Cancel</Option>
+        </Options>
+  </OptionDialog>
+		<Popover id="weekPopover" formFactor="tablet" platform="ios">
+			<ContentView>
+				<NavigationWindow height="300" width="200">
+					<Window id="weekPopoverWin">
+						<ListView onItemclick="selectWeek">
+							<ListSection>
+								<ListItem title="Sunday" />
+								<ListItem title="Monday" />
+								<ListItem title="Tuesday" />
+								<ListItem title="Wednesday" />
+								<ListItem title="Thursday" />
+								<ListItem title="Friday" />
+								<ListItem title="Saturday" />
+							</ListSection>
+						</ListView>
+					</Window>
+				</NavigationWindow>
+			</ContentView>
+		</Popover>
+		<Popover id="datePopover" selectionIndicator="true" formFactor="tablet" platform="ios">
+			<ContentView>
+				<NavigationWindow height="200" width="250">
+					<Window>
+						<Picker id="datePicker" type="Ti.UI.PICKER_TYPE_DATE" onChange="selectDate" />
+					</Window>
+				</NavigationWindow>
+			</ContentView>
+		</Popover>
+		<ScrollView class="form">
+		    <View class="txtFieldContainner"> 
+		          <TextField class="txtField" id ="versionCode" value="iProductive V2.8"> </TextField>
+		    </View>
+			<View class="txtFieldContainner">
+				<TextField id="username" class="txtField" value="{user.Username}" />
+				<Button class="textBtn" backgroundImage="/images/icons/user.png" />
+			</View>
+			<View class="fieldContainner">
+				<Label left="0">Sync check list</Label>
+				<Switch right="0" id="ForceSync" enabled="{user.EnableSyncBool}" value="{user.ForceSyncBool}" />
+			</View>
+			<View class="txtFieldContainner">
+				<TextField id="startOfWeek" class="txtField" onClick="showWeekPopover" ref="startOfWeek" popOverTitle="Start of week" value="{user.startOfWeekStr}" />
+				<Button class="textBtn" backgroundImage="/images/icons/picker.png" onClick="showWeekPopover" ref="startOfWeek" popOverTitle="Start of week" />
+			</View>
+			<View class="txtFieldContainner">
+				<TextField id="endOfWeek" class="txtField" onClick="showWeekPopover" ref="endOfWeek" popOverTitle="End of week" value="{user.endOfWeekStr}" />
+				<Button class="textBtn" backgroundImage="/images/icons/picker.png" onClick="showWeekPopover" ref="endOfWeek" popOverTitle="End of week" />
+			</View>
+			<View class="txtFieldContainner">
+				<TextField id="endOfMonth" class="txtField" onClick="showDatePopover" ref="endOfMonth" value="{user.endOfMonth}" />
+				<Button class="textBtn" backgroundImage="/images/icons/calendar.png" onClick="showDatePopover" ref="endOfMonth" />
+			</View>
+			<View class="txtFieldContainner">
+				<TextField id="endOfQuarter" class="txtField" onClick="showDatePopover" ref="endOfQuarter" value="{user.endOfQuarter}" />
+				<Button class="textBtn" backgroundImage="/images/icons/calendar.png" onClick="showDatePopover" ref="endOfQuarter" />
+			</View>
+			<View class="txtFieldContainner">
+				<TextField id="endOfSemester" class="txtField" onClick="showDatePopover" ref="endOfSemester" value="{user.endOfSemester}" />
+				<Button class="textBtn" backgroundImage="/images/icons/calendar.png" onClick="showDatePopover" ref="endOfSemester" />
+			</View>
+			<View class="txtFieldContainner">
+				<TextField id="endOfYear" class="txtField" onClick="showDatePopover" ref="endOfYear" value="{user.endOfYear}" />
+				<Button class="textBtn" backgroundImage="/images/icons/calendar.png" onClick="showDatePopover" ref="endOfYear" />
+			</View>
+			<View height="80">
+				<Button class="backBtn" title="Save" onClick="save" right="5%" />
+				<Button class="darkBtn" title="Logout" onClick="logOut" left="5%" />
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

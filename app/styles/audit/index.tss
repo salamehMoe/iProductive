@@ -1,0 +1,32 @@
+"#index":{
+	autoAdjustScrollViewInsets: false
+}
+"ListView[platform=ios]": {
+	top: 62
+}
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+"ListView": {
+	defaultItemTemplate: Ti.UI.LIST_ITEM_TEMPLATE_SUBTITLE,
+	
+}
+"#subtitle":{ 
+	font: {fontSize: '10dp' },
+    left: '10dp', top: '40dp',
+    color:"black"
+}
+"#title": {
+    color: 'black',
+    left: '10dp', top: '15dp'
+}
+"ListItem": {
+	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
+}
+"#confirmAlert": {
+	title: "Start audit?",
+	message: "Do you want to start this audit now?",
+	cancel: 1
+}
+

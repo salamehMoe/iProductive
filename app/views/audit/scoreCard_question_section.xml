@@ -1,0 +1,13 @@
+<Alloy>
+	<ListSection id="mySec">
+		<HeaderView>
+			<View id="headerView">
+				<Label id="titleLbl" />
+				<!--View class="weightView">
+					<Label id="weightLbl" />
+					<Label id="weightTotalLbl" />
+				</View-->
+			</View>
+		</HeaderView>
+	</ListSection>
+</Alloy>

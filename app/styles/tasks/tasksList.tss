@@ -1,0 +1,115 @@
+"#tasks_list":{
+	autoAdjustScrollViewInsets: false
+	
+}
+
+"#completedTasks":{
+	title: "Hide completed",
+	bottom: 1,
+	right: 5,
+	width: "95%",
+	height: 45,
+	borderRadius: 3,
+	color:"white",
+	backgroundColor:Alloy.CFG.borderColor,
+	zIndex: 1
+}
+"#completedTasks[platform=android]":{
+	font:{
+		fontSize: 13
+	},
+	bottom: 1
+}
+"#list":{
+	separatorColor:"transparent",
+	bottom: 50
+
+}
+"ListView[platform=ios]": {
+	top: 62
+}
+"#headerView": {
+	backgroundColor: '#efefef',
+	height: 60
+}
+/////  <<<<
+".height":{
+	width: "100%"
+}
+".height[platform=ios]": {
+	selectionStyle:Titanium.UI.iOS.ListViewCellSelectionStyle.NONE
+}
+".taskTitle": {
+	height: 15,
+	width:"85%",
+	left: 35,
+	top: 0,
+	color: "black",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 20,
+		//fontWeight: "bold"
+	}
+}
+".taskTitle[formFactor=handheld]": {
+	font: {
+		fontSize: 14
+	}
+}
+/*".taskDesc": {
+	right: 55,
+	height:2,
+	//top: 45,
+	bottom: 2,
+	color: "#999",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	font: {
+		fontSize: 15
+	}
+}*/
+".notdoneMark":{
+	image: "/images/Notcompleted.png",
+	width: 15,
+	height: 15,
+	left: 4,
+	//bottom: 4,
+	top:2,
+	visible: true
+	
+}
+
+".doneMark":{
+	image: "/images/Completed.png",
+	width: 15,
+	height: 15,
+	left: 4,
+	//bottom: 4,
+	top: 2,
+	visible: false
+}
+".doneMark[formFactor=handheld]":{
+	width: 15,
+	height: 15,
+	left: 4
+}
+".priorityIcon":{
+	width: 15,
+	height: 15,
+	right:10,
+	top:0
+}
+
+'#footer': {
+    layout: 'horizontal',
+    height: '20%',
+    width: Ti.UI.FILL,
+    backgroundColor: 'green',
+}
+
+
+//".taskDesc[formFactor=handheld]": {
+	//font: {
+	//	fontSize: 15
+	//}
+//}
+

@@ -1,0 +1,123 @@
+<Alloy>
+	<Collection src="stores" />
+	<Collection src="employees" />
+	<!-- to create answers table if 1st time -->
+	<Collection src="answers" />
+	<View id="pre_survey" title="Completed Audits">
+		<View class="overlay" />
+		<OptionDialog id="storesPopover" title="Select Store" onClick="selectStore" platform="android">
+			<ListView onItemclick="selectStore">
+				<ListSection dataCollection="stores">
+					<ListItem title="{StoreDesc}" subtitle="{CountryDesc}" StoreCode="{StoreCode}" CountryCode="{CountryCode}" ZoneID="{ZoneID}" ZoneDesc="{ZoneDesc}" CompanyTypeID="{CompanyTypeID}" CompanyTypeDesc="{CompanyTypeDesc}" />
+				</ListSection>
+			</ListView>
+		</OptionDialog>
+		<Popover id="storesTypePopover" formFactor="tablet" platform="ios">
+			<ContentView>
+				<NavigationWindow height="300" width="250">
+					<Window title="Select store Type" id="storesList">
+						<ListView onItemclick="selectStoreType">
+							<ListSection name="type">
+								<ListItem title="All"/>
+								<ListItem title="Supermarket"/>
+								<ListItem title="Hypermarket"/>
+								<!-- <ListItem title="{StoreDesc}" subtitle="{CountryDesc}" StoreCode="{StoreCode}" CountryCode="{CountryCode}" ZoneID="{ZoneID}" ZoneDesc="{ZoneDesc}" CompanyTypeID="{CompanyTypeID}" CompanyTypeDesc="{CompanyTypeDesc}" /> -->
+							</ListSection>
+						</ListView>
+					</Window>
+				</NavigationWindow>
+			</ContentView>
+		</Popover>
+		<Popover id="storesPopover" formFactor="tablet" platform="ios">
+			<ContentView>
+				<NavigationWindow height="300" width="250">
+					<Window title="Select store" id="storesList">
+						<ListView onItemclick="selectStore">
+							<ListSection dataCollection="stores">
+								<ListItem title="{StoreDesc}" subtitle="{CountryDesc}" StoreCode="{StoreCode}" CountryCode="{CountryCode}" ZoneID="{ZoneID}" ZoneDesc="{ZoneDesc}" CompanyTypeID="{CompanyTypeID}" CompanyTypeDesc="{CompanyTypeDesc}" />
+							</ListSection>
+						</ListView>
+					</Window>
+				</NavigationWindow>
+			</ContentView>
+		</Popover>
+		<OptionDialog id="EmployeePopover" title="Select Employee" onClick="selectStore" platform="android">
+			<ListView onItemclick="selectStore" top="43">
+				<SearchView ns="Ti.UI.Android" platform="android"/>
+				<ListSection dataCollection="employees">
+					<ListItem title="{Name}" EmployeeNo="{EmployeeNo}" StoreCode="{StoreCode}" PositionID="{PositionID}" UserID="{UserID}" searchableText="{Name}" />
+				</ListSection>
+			</ListView>
+		</OptionDialog>
+		<Popover id="EmployeePopover" formFactor="tablet" platform="ios">
+			<ContentView>
+				<NavigationWindow height="300" width="250">
+					<Window title="Select Employee" id="employeeList">
+						<ListView onItemclick="selectStore" top="43">
+							<SearchBar platform="ios" />
+							<ListSection dataCollection="employees">
+								<ListItem title="{Name}" EmployeeNo="{EmployeeNo}" StoreCode="{StoreCode}" PositionID="{PositionID}" UserID="{UserID}" searchableText="{Name}" />
+							</ListSection>
+						</ListView>
+					</Window>
+				</NavigationWindow>
+			</ContentView>
+		</Popover>
+		<OptionDialog id="datePopover" title="Start Date" onClick="selectDate" platform="android">
+			<Picker id="datePicker" enabled="false" type="Ti.UI.PICKER_TYPE_DATE" onChange="selectDate"></Picker>
+		</OptionDialog>
+		<Popover id="datePopover" selectionIndicator="true" formFactor="tablet" platform="ios">
+			<ContentView>
+				<NavigationWindow height="200" width="250">
+					<Window title="Start date">
+						<Picker id="datePicker" enabled="false" type="Ti.UI.PICKER_TYPE_DATE" onChange="selectDate"></Picker>
+					</Window>
+				</NavigationWindow>
+			</ContentView>
+		</Popover>
+		<View id="containner">
+			<View class="TitleBar">
+				<ImageView class="logo" />
+				<Label id="titleLbl" />
+			</View>
+			<View class="splitter" />
+			<View class="txtField1Containner">
+				<Label class="txtField1Lbl">Audit Template</Label>
+				<TextField id="tempName" class="txtField" next="password" left="0" />
+			</View>
+			<View class="txtField1Containner" id="storetypeContainer">
+				<Label id="storeTypeinForm" class="txtField1Lbl">Store Type</Label>
+				<TextField id="storeType" class="txtField" onClick="storesTypePickerShow" left="0">
+					<RightButton>
+						<Button image="/images/icons/user.png" />
+					</RightButton>
+				</TextField>
+			</View>
+			<View class="txtField1Containner">
+				<Label id="storeinForm" class="txtField1Lbl">Store</Label>
+				<TextField id="store" class="txtField" onClick="storesPickerShow" left="0">
+					<RightButton>
+						<Button image="/images/icons/user.png" />
+					</RightButton>
+				</TextField>
+			</View>
+			<View class="txtField1Containner">
+				<Label class="txtField1Lbl">Start date</Label>
+				<TextField id="date" class="txtField" onClick="datePickerShow" ref="date" left="0">
+					<RightButton>
+						<Button image="/images/icons/calendar.png" />
+					</RightButton>
+				</TextField>
+			</View>
+			<View class="txtField1Containner">
+				<Label class="txtField1Lbl">Audit by</Label>
+				<TextField id="auditBy" class="txtField" left="0" />
+			</View>
+			<View class="btnsContainner">
+				<Button onClick="back" class="backBtn" id="backBtn">Cancel</Button>
+				<Button onClick="startSurvey" class="darkBtn" id="startBtn">Start Audit</Button>
+			</View>
+			<View height="20" />
+		</View>
+	</View>
+</Alloy>
